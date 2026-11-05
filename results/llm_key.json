@@ -1,0 +1,705 @@
+{
+"seed": 20261107,
+"key": {
+"1": {
+"A": "shisa_strict",
+"B": "bergamot",
+"C": "shisa",
+"D": "cat08",
+"E": "cat14"
+},
+"2": {
+"A": "cat14",
+"B": "cat08",
+"C": "bergamot",
+"D": "shisa_strict",
+"E": "shisa"
+},
+"3": {
+"A": "shisa",
+"B": "cat08",
+"C": "cat14",
+"D": "shisa_strict",
+"E": "bergamot"
+},
+"4": {
+"A": "shisa_strict",
+"B": "cat14",
+"C": "bergamot",
+"D": "cat08",
+"E": "shisa"
+},
+"5": {
+"A": "cat14",
+"B": "cat08",
+"C": "bergamot",
+"D": "shisa_strict",
+"E": "shisa"
+},
+"6": {
+"A": "cat14",
+"B": "bergamot",
+"C": "cat08",
+"D": "shisa",
+"E": "shisa_strict"
+},
+"7": {
+"A": "cat08",
+"B": "shisa_strict",
+"C": "cat14",
+"D": "shisa",
+"E": "bergamot"
+},
+"8": {
+"A": "shisa",
+"B": "bergamot",
+"C": "shisa_strict",
+"D": "cat08",
+"E": "cat14"
+},
+"9": {
+"A": "cat14",
+"B": "bergamot",
+"C": "shisa_strict",
+"D": "shisa",
+"E": "cat08"
+},
+"10": {
+"A": "cat08",
+"B": "shisa_strict",
+"C": "cat14",
+"D": "bergamot",
+"E": "shisa"
+},
+"11": {
+"A": "cat08",
+"B": "shisa_strict",
+"C": "shisa",
+"D": "bergamot",
+"E": "cat14"
+},
+"12": {
+"A": "shisa_strict",
+"B": "cat08",
+"C": "bergamot",
+"D": "cat14",
+"E": "shisa"
+},
+"13": {
+"A": "shisa_strict",
+"B": "cat14",
+"C": "cat08",
+"D": "bergamot",
+"E": "shisa"
+},
+"14": {
+"A": "bergamot",
+"B": "shisa",
+"C": "cat08",
+"D": "cat14",
+"E": "shisa_strict"
+},
+"15": {
+"A": "shisa",
+"B": "bergamot",
+"C": "shisa_strict",
+"D": "cat08",
+"E": "cat14"
+},
+"16": {
+"A": "cat08",
+"B": "bergamot",
+"C": "shisa",
+"D": "cat14",
+"E": "shisa_strict"
+},
+"17": {
+"A": "cat08",
+"B": "shisa_strict",
+"C": "cat14",
+"D": "shisa",
+"E": "bergamot"
+},
+"18": {
+"A": "shisa_strict",
+"B": "bergamot",
+"C": "cat14",
+"D": "cat08",
+"E": "shisa"
+},
+"19": {
+"A": "cat14",
+"B": "bergamot",
+"C": "cat08",
+"D": "shisa",
+"E": "shisa_strict"
+},
+"20": {
+"A": "cat08",
+"B": "shisa",
+"C": "shisa_strict",
+"D": "cat14",
+"E": "bergamot"
+},
+"21": {
+"A": "shisa",
+"B": "bergamot",
+"C": "cat08",
+"D": "cat14",
+"E": "shisa_strict"
+},
+"22": {
+"A": "shisa_strict",
+"B": "bergamot",
+"C": "shisa",
+"D": "cat14",
+"E": "cat08"
+},
+"23": {
+"A": "shisa",
+"B": "cat08",
+"C": "shisa_strict",
+"D": "bergamot",
+"E": "cat14"
+},
+"24": {
+"A": "bergamot",
+"B": "cat14",
+"C": "shisa_strict",
+"D": "cat08",
+"E": "shisa"
+},
+"25": {
+"A": "cat08",
+"B": "shisa",
+"C": "shisa_strict",
+"D": "bergamot",
+"E": "cat14"
+},
+"26": {
+"A": "cat08",
+"B": "shisa_strict",
+"C": "shisa",
+"D": "bergamot",
+"E": "cat14"
+},
+"27": {
+"A": "cat08",
+"B": "shisa_strict",
+"C": "shisa",
+"D": "bergamot",
+"E": "cat14"
+},
+"28": {
+"A": "shisa",
+"B": "cat14",
+"C": "cat08",
+"D": "bergamot",
+"E": "shisa_strict"
+},
+"29": {
+"A": "cat08",
+"B": "bergamot",
+"C": "shisa_strict",
+"D": "cat14",
+"E": "shisa"
+},
+"30": {
+"A": "bergamot",
+"B": "shisa_strict",
+"C": "shisa",
+"D": "cat14",
+"E": "cat08"
+},
+"31": {
+"A": "cat08",
+"B": "shisa_strict",
+"C": "cat14",
+"D": "bergamot",
+"E": "shisa"
+},
+"32": {
+"A": "shisa",
+"B": "shisa_strict",
+"C": "cat14",
+"D": "cat08",
+"E": "bergamot"
+},
+"33": {
+"A": "bergamot",
+"B": "cat14",
+"C": "cat08",
+"D": "shisa_strict",
+"E": "shisa"
+},
+"34": {
+"A": "shisa_strict",
+"B": "bergamot",
+"C": "cat14",
+"D": "shisa",
+"E": "cat08"
+},
+"35": {
+"A": "shisa",
+"B": "cat08",
+"C": "cat14",
+"D": "bergamot",
+"E": "shisa_strict"
+},
+"36": {
+"A": "shisa_strict",
+"B": "shisa",
+"C": "bergamot",
+"D": "cat08",
+"E": "cat14"
+},
+"37": {
+"A": "shisa_strict",
+"B": "cat14",
+"C": "bergamot",
+"D": "cat08",
+"E": "shisa"
+},
+"38": {
+"A": "bergamot",
+"B": "shisa",
+"C": "shisa_strict",
+"D": "cat14",
+"E": "cat08"
+},
+"39": {
+"A": "bergamot",
+"B": "cat08",
+"C": "cat14",
+"D": "shisa_strict",
+"E": "shisa"
+},
+"40": {
+"A": "cat08",
+"B": "bergamot",
+"C": "cat14",
+"D": "shisa",
+"E": "shisa_strict"
+},
+"41": {
+"A": "bergamot",
+"B": "cat08",
+"C": "shisa",
+"D": "cat14",
+"E": "shisa_strict"
+},
+"42": {
+"A": "shisa_strict",
+"B": "cat14",
+"C": "bergamot",
+"D": "shisa",
+"E": "cat08"
+},
+"43": {
+"A": "cat14",
+"B": "bergamot",
+"C": "shisa_strict",
+"D": "cat08",
+"E": "shisa"
+},
+"44": {
+"A": "shisa_strict",
+"B": "shisa",
+"C": "cat14",
+"D": "bergamot",
+"E": "cat08"
+},
+"45": {
+"A": "shisa",
+"B": "cat08",
+"C": "bergamot",
+"D": "shisa_strict",
+"E": "cat14"
+},
+"46": {
+"A": "bergamot",
+"B": "cat08",
+"C": "shisa_strict",
+"D": "cat14",
+"E": "shisa"
+},
+"47": {
+"A": "bergamot",
+"B": "cat08",
+"C": "shisa",
+"D": "cat14",
+"E": "shisa_strict"
+},
+"48": {
+"A": "cat08",
+"B": "cat14",
+"C": "shisa",
+"D": "bergamot",
+"E": "shisa_strict"
+},
+"49": {
+"A": "cat08",
+"B": "shisa_strict",
+"C": "bergamot",
+"D": "cat14",
+"E": "shisa"
+},
+"50": {
+"A": "cat14",
+"B": "shisa_strict",
+"C": "bergamot",
+"D": "shisa",
+"E": "cat08"
+},
+"51": {
+"A": "shisa",
+"B": "shisa_strict",
+"C": "bergamot",
+"D": "cat14",
+"E": "cat08"
+},
+"52": {
+"A": "shisa_strict",
+"B": "cat08",
+"C": "shisa",
+"D": "cat14",
+"E": "bergamot"
+},
+"53": {
+"A": "shisa",
+"B": "cat08",
+"C": "bergamot",
+"D": "shisa_strict",
+"E": "cat14"
+},
+"54": {
+"A": "cat08",
+"B": "shisa_strict",
+"C": "bergamot",
+"D": "shisa",
+"E": "cat14"
+},
+"55": {
+"A": "shisa_strict",
+"B": "cat14",
+"C": "bergamot",
+"D": "cat08",
+"E": "shisa"
+},
+"56": {
+"A": "cat14",
+"B": "cat08",
+"C": "shisa_strict",
+"D": "shisa",
+"E": "bergamot"
+},
+"57": {
+"A": "shisa_strict",
+"B": "cat14",
+"C": "shisa",
+"D": "cat08",
+"E": "bergamot"
+},
+"58": {
+"A": "bergamot",
+"B": "shisa",
+"C": "shisa_strict",
+"D": "cat14",
+"E": "cat08"
+},
+"59": {
+"A": "shisa",
+"B": "cat14",
+"C": "cat08",
+"D": "bergamot",
+"E": "shisa_strict"
+},
+"60": {
+"A": "shisa",
+"B": "cat14",
+"C": "bergamot",
+"D": "cat08",
+"E": "shisa_strict"
+},
+"61": {
+"A": "shisa",
+"B": "shisa_strict",
+"C": "cat14",
+"D": "bergamot",
+"E": "cat08"
+},
+"62": {
+"A": "cat14",
+"B": "shisa",
+"C": "shisa_strict",
+"D": "cat08",
+"E": "bergamot"
+},
+"63": {
+"A": "bergamot",
+"B": "cat14",
+"C": "shisa",
+"D": "shisa_strict",
+"E": "cat08"
+},
+"64": {
+"A": "cat14",
+"B": "cat08",
+"C": "shisa_strict",
+"D": "bergamot",
+"E": "shisa"
+},
+"65": {
+"A": "shisa_strict",
+"B": "cat08",
+"C": "bergamot",
+"D": "shisa",
+"E": "cat14"
+},
+"66": {
+"A": "bergamot",
+"B": "shisa",
+"C": "cat14",
+"D": "cat08",
+"E": "shisa_strict"
+},
+"67": {
+"A": "cat14",
+"B": "cat08",
+"C": "shisa",
+"D": "bergamot",
+"E": "shisa_strict"
+},
+"68": {
+"A": "cat08",
+"B": "cat14",
+"C": "shisa",
+"D": "bergamot",
+"E": "shisa_strict"
+},
+"69": {
+"A": "cat14",
+"B": "bergamot",
+"C": "cat08",
+"D": "shisa_strict",
+"E": "shisa"
+},
+"70": {
+"A": "cat14",
+"B": "bergamot",
+"C": "shisa",
+"D": "cat08",
+"E": "shisa_strict"
+},
+"71": {
+"A": "cat14",
+"B": "shisa_strict",
+"C": "bergamot",
+"D": "shisa",
+"E": "cat08"
+},
+"72": {
+"A": "shisa_strict",
+"B": "bergamot",
+"C": "cat08",
+"D": "cat14",
+"E": "shisa"
+},
+"73": {
+"A": "cat08",
+"B": "cat14",
+"C": "shisa_strict",
+"D": "bergamot",
+"E": "shisa"
+},
+"74": {
+"A": "cat08",
+"B": "bergamot",
+"C": "shisa_strict",
+"D": "cat14",
+"E": "shisa"
+},
+"75": {
+"A": "cat08",
+"B": "cat14",
+"C": "shisa_strict",
+"D": "bergamot",
+"E": "shisa"
+},
+"76": {
+"A": "bergamot",
+"B": "shisa_strict",
+"C": "shisa",
+"D": "cat14",
+"E": "cat08"
+},
+"77": {
+"A": "shisa",
+"B": "shisa_strict",
+"C": "bergamot",
+"D": "cat14",
+"E": "cat08"
+},
+"78": {
+"A": "bergamot",
+"B": "cat14",
+"C": "shisa",
+"D": "cat08",
+"E": "shisa_strict"
+},
+"79": {
+"A": "shisa_strict",
+"B": "bergamot",
+"C": "cat08",
+"D": "shisa",
+"E": "cat14"
+},
+"80": {
+"A": "shisa",
+"B": "bergamot",
+"C": "shisa_strict",
+"D": "cat14",
+"E": "cat08"
+},
+"81": {
+"A": "shisa_strict",
+"B": "shisa",
+"C": "bergamot",
+"D": "cat08",
+"E": "cat14"
+},
+"82": {
+"A": "shisa_strict",
+"B": "cat08",
+"C": "shisa",
+"D": "bergamot",
+"E": "cat14"
+},
+"83": {
+"A": "shisa",
+"B": "cat14",
+"C": "cat08",
+"D": "bergamot",
+"E": "shisa_strict"
+},
+"84": {
+"A": "cat14",
+"B": "shisa_strict",
+"C": "cat08",
+"D": "bergamot",
+"E": "shisa"
+},
+"85": {
+"A": "cat08",
+"B": "bergamot",
+"C": "cat14",
+"D": "shisa",
+"E": "shisa_strict"
+},
+"86": {
+"A": "bergamot",
+"B": "cat14",
+"C": "shisa_strict",
+"D": "shisa",
+"E": "cat08"
+},
+"87": {
+"A": "shisa",
+"B": "shisa_strict",
+"C": "bergamot",
+"D": "cat14",
+"E": "cat08"
+},
+"88": {
+"A": "shisa_strict",
+"B": "shisa",
+"C": "bergamot",
+"D": "cat14",
+"E": "cat08"
+},
+"89": {
+"A": "shisa",
+"B": "bergamot",
+"C": "shisa_strict",
+"D": "cat14",
+"E": "cat08"
+},
+"90": {
+"A": "cat08",
+"B": "cat14",
+"C": "shisa",
+"D": "shisa_strict",
+"E": "bergamot"
+},
+"91": {
+"A": "shisa",
+"B": "cat08",
+"C": "shisa_strict",
+"D": "cat14",
+"E": "bergamot"
+},
+"92": {
+"A": "shisa",
+"B": "bergamot",
+"C": "cat14",
+"D": "cat08",
+"E": "shisa_strict"
+},
+"93": {
+"A": "shisa_strict",
+"B": "shisa",
+"C": "bergamot",
+"D": "cat08",
+"E": "cat14"
+},
+"94": {
+"A": "shisa",
+"B": "shisa_strict",
+"C": "cat08",
+"D": "bergamot",
+"E": "cat14"
+},
+"95": {
+"A": "bergamot",
+"B": "shisa_strict",
+"C": "cat14",
+"D": "shisa",
+"E": "cat08"
+},
+"96": {
+"A": "shisa_strict",
+"B": "cat08",
+"C": "bergamot",
+"D": "shisa",
+"E": "cat14"
+},
+"97": {
+"A": "shisa_strict",
+"B": "shisa",
+"C": "cat14",
+"D": "cat08",
+"E": "bergamot"
+},
+"98": {
+"A": "cat14",
+"B": "bergamot",
+"C": "shisa_strict",
+"D": "cat08",
+"E": "shisa"
+},
+"99": {
+"A": "bergamot",
+"B": "shisa_strict",
+"C": "cat14",
+"D": "shisa",
+"E": "cat08"
+},
+"100": {
+"A": "shisa",
+"B": "cat08",
+"C": "cat14",
+"D": "bergamot",
+"E": "shisa_strict"
+}
+}
+}

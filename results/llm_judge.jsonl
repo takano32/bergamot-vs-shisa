@@ -1,0 +1,500 @@
+{"id": 1, "system": "bergamot", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "コマンド名が壊れている（restartworkwork）"}
+{"id": 2, "system": "bergamot", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "後半が指示でなく「ローテーションします」"}
+{"id": 3, "system": "bergamot", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 2, "nat": 2, "pen": 0, "total": 4, "why": "なぜ fork を呼ぶのか、という別の意味になった"}
+{"id": 4, "system": "bergamot", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "「遅いタスクは自分だけ遅れる」が落ち、ワーカーを「作業者」と訳した"}
+{"id": 5, "system": "bergamot", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入り、コードも保たれた"}
+{"id": 6, "system": "bergamot", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「行動」「取り消すことはできない」で文体が揺れる"}
+{"id": 7, "system": "bergamot", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "ボタンなのに「します」"}
+{"id": 8, "system": "bergamot", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "pending が落ちた"}
+{"id": 9, "system": "bergamot", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「番号」は number の訳として不適、硬い"}
+{"id": 10, "system": "bergamot", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 11, "system": "bergamot", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "「引き上げ」が重複"}
+{"id": 12, "system": "bergamot", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "「欠航」で自然"}
+{"id": 13, "system": "bergamot", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 14, "system": "bergamot", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "turn over a new leaf を「新たな猶予」と取り違えた"}
+{"id": 15, "system": "bergamot", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 16, "system": "bergamot", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「私が変更したい」で原文の含みが弱い"}
+{"id": 17, "system": "bergamot", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "「小さなお店」に誤訳"}
+{"id": 18, "system": "bergamot", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "見出しの # が残り、「上位5つ」がやや硬い"}
+{"id": 19, "system": "bergamot", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "「やり終えたら」と取り違えた"}
+{"id": 20, "system": "bergamot", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "太字の記号が壊れている"}
+{"id": 21, "system": "bergamot", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る。「見積もり」がやや口語"}
+{"id": 22, "system": "bergamot", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "traveling を「巡回」、that week を「今週」と取り違えた"}
+{"id": 23, "system": "bergamot", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 24, "system": "bergamot", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "follow up を「予定」と取り違え、delivery を「配達」と訳した"}
+{"id": 25, "system": "bergamot", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 1, "nat": 2, "pen": 0, "total": 3, "why": "touch base を直訳して意味が違う"}
+{"id": 26, "system": "bergamot", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「なんて」が少し浮く"}
+{"id": 27, "system": "bergamot", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "誘いでなく「飲みたいか」の質問になった"}
+{"id": 28, "system": "bergamot", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「私の悪い」が直訳"}
+{"id": 29, "system": "bergamot", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 30, "system": "bergamot", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 2, "nat": 2, "pen": 0, "total": 4, "why": "hold my place を「立場を並べる」と取り違えた"}
+{"id": 31, "system": "bergamot", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入るが、予約の言い方が素っ気ない"}
+{"id": 32, "system": "bergamot", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 3, "nat": 2, "pen": 0, "total": 5, "why": "「サーモンから出ました」が壊れている"}
+{"id": 33, "system": "bergamot", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 34, "system": "bergamot", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "預かるが「お持ちいただく」に変わった"}
+{"id": 35, "system": "bergamot", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 1, "nat": 2, "pen": 0, "total": 3, "why": "「奪われたのですか」と意味が違う"}
+{"id": 36, "system": "bergamot", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 37, "system": "bergamot", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 38, "system": "bergamot", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "「協定」「通知の末に」が不自然"}
+{"id": 39, "system": "bergamot", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 40, "system": "bergamot", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 41, "system": "bergamot", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「漂わせていた」がやや強い"}
+{"id": 42, "system": "bergamot", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「しばらくの間」が原文の a moment と長さが違う"}
+{"id": 43, "system": "bergamot", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 44, "system": "bergamot", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「落ち着く」が文脈に合わず、時制も変わった"}
+{"id": 45, "system": "bergamot", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "かぎ括弧が落ちた"}
+{"id": 46, "system": "bergamot", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "just missed の意味がずれ、lol も落ちた"}
+{"id": 47, "system": "bergamot", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 2, "nat": 1, "pen": 0, "total": 3, "why": "文字化けと「10月10日」の取り違え"}
+{"id": 48, "system": "bergamot", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 49, "system": "bergamot", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 50, "system": "bergamot", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 2, "nat": 2, "pen": 0, "total": 4, "why": "thx が残り、意味も弱い"}
+{"id": 51, "system": "bergamot", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 52, "system": "bergamot", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 53, "system": "bergamot", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "やや硬い受け身"}
+{"id": 54, "system": "bergamot", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "太字の記号が壊れ、\"push history\" が不自然"}
+{"id": 55, "system": "bergamot", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "一文が長く、冗長"}
+{"id": 56, "system": "bergamot", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 57, "system": "bergamot", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る。ピリオドの後の空白が抜けた"}
+{"id": 58, "system": "bergamot", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "message が単数"}
+{"id": 59, "system": "bergamot", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 2, "nat": 1, "pen": 0, "total": 3, "why": "英語として成り立たない"}
+{"id": 60, "system": "bergamot", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 61, "system": "bergamot", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "\"by three months\" がやや曖昧"}
+{"id": 62, "system": "bergamot", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 2, "nat": 4, "pen": 0, "total": 6, "why": "台風名を別の名前にした"}
+{"id": 63, "system": "bergamot", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 64, "system": "bergamot", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "\"Mr. Ueda, the Bank of Japan,\" が不自然"}
+{"id": 65, "system": "bergamot", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 66, "system": "bergamot", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "リンクの記法が壊れ、\"List with image\" が不自然"}
+{"id": 67, "system": "bergamot", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "全部入るが、文の運びが回りくどい"}
+{"id": 68, "system": "bergamot", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 2, "nat": 4, "pen": 0, "total": 6, "why": "「持ち」を battery が大きい、と取り違えた"}
+{"id": 69, "system": "bergamot", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る。\"go around\" が不自然"}
+{"id": 70, "system": "bergamot", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "\"so sweet\" が直訳"}
+{"id": 71, "system": "bergamot", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "ピリオドの後の空白が抜けた"}
+{"id": 72, "system": "bergamot", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "「ご多忙」を自分側の事情と取り違えた"}
+{"id": 73, "system": "bergamot", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "\"getting worse\" と意味が違う"}
+{"id": 74, "system": "bergamot", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 75, "system": "bergamot", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "語順が不自然"}
+{"id": 76, "system": "bergamot", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "後半を取り違えた"}
+{"id": 77, "system": "bergamot", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 3, "nat": 5, "pen": 0, "total": 8, "why": "主語が \"you\" になった"}
+{"id": 78, "system": "bergamot", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "「言ってほしかった」の向きを取り違えた"}
+{"id": 79, "system": "bergamot", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "「適当でいい」を \"not going to eat properly\" と取り違えた"}
+{"id": 80, "system": "bergamot", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "ピリオドの後の空白が抜けた"}
+{"id": 81, "system": "bergamot", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "空白が抜け、\"there\" が不自然"}
+{"id": 82, "system": "bergamot", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "お詫びの含みが弱い"}
+{"id": 83, "system": "bergamot", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入るが、敬語の含みが落ちた"}
+{"id": 84, "system": "bergamot", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "\"contact\" がやや硬い"}
+{"id": 85, "system": "bergamot", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 86, "system": "bergamot", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 87, "system": "bergamot", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 88, "system": "bergamot", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 89, "system": "bergamot", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "年が落ちた"}
+{"id": 90, "system": "bergamot", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 91, "system": "bergamot", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 92, "system": "bergamot", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 93, "system": "bergamot", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "蝉を fire と取り違えた"}
+{"id": 94, "system": "bergamot", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "主語が変わり、\"my feet stopped\" とのつながりが弱い"}
+{"id": 95, "system": "bergamot", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「どうしても」が落ちた"}
+{"id": 96, "system": "bergamot", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 2, "nat": 2, "pen": 0, "total": 4, "why": "電車が死ぬ、と取り違えた"}
+{"id": 97, "system": "bergamot", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 2, "nat": 1, "pen": 0, "total": 3, "why": "文字化けと意味の取り違え"}
+{"id": 98, "system": "bergamot", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "ピリオドの後の空白が抜けた"}
+{"id": 99, "system": "bergamot", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "ハッシュタグが落ちた"}
+{"id": 100, "system": "bergamot", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 2, "nat": 2, "pen": 0, "total": 4, "why": "\"push live\" が壊れている"}
+{"id": 1, "system": "shisa", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入って自然"}
+{"id": 2, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "commit を「登録」と訳した"}
+{"id": 3, "system": "shisa", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "先頭行は訳として通るが、後ろに解説が続く"}
+{"id": 4, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「ワーカーでブロック」の助詞が不自然"}
+{"id": 5, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "deprecated を「削除されていた」と取り違えた"}
+{"id": 6, "system": "shisa", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 3, "nat": 3, "pen": -1, "total": 5, "why": "「削除したいのですね」と意味が変わり、解説が続く"}
+{"id": 7, "system": "shisa", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "ボタンに「ください」は不自然"}
+{"id": 8, "system": "shisa", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 3, "nat": 3, "pen": -1, "total": 5, "why": "pending を「未受付」と訳し、解説が続く"}
+{"id": 9, "system": "shisa", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 10, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "「設定よりプライバシーで」の意味が通りにくい"}
+{"id": 11, "system": "shisa", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "「3年連続で4.5パーセントポイント」と数字の意味が違う"}
+{"id": 12, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 3, "nat": 2, "pen": -1, "total": 4, "why": "「重い雨」に誤訳、解説が続く"}
+{"id": 13, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「とのことです」で伝聞になり、officials の主語が薄い"}
+{"id": 14, "system": "shisa", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 2, "nat": 2, "pen": -1, "total": 3, "why": "名前が山本恵子に変わり、意味が崩れ、注が続く"}
+{"id": 15, "system": "shisa", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 16, "system": "shisa", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "くだけすぎで、「一番変えること」が通りにくい"}
+{"id": 17, "system": "shisa", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "「どんな本よりも」が弱まった"}
+{"id": 18, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 4, "pen": -1, "total": 8, "why": "先頭行は通るが、勝手に記事を書き続けた"}
+{"id": 19, "system": "shisa", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "warm up を「気づく」、go back を「帰れない」と取り違えた"}
+{"id": 20, "system": "shisa", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "「予想外だったかもしれない」と意味が違う"}
+{"id": 21, "system": "shisa", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "見積書が「修正案」になり、prompt も落ちた"}
+{"id": 22, "system": "shisa", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「ご参加することは」が不自然"}
+{"id": 23, "system": "shisa", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "No. が落ち、「ご参考ください」を足した"}
+{"id": 24, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 2, "nat": 2, "pen": 0, "total": 4, "why": "意味が崩れている"}
+{"id": 25, "system": "shisa", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 26, "system": "shisa", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "「何が起きたか」が落ちた"}
+{"id": 27, "system": "shisa", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「とかどう」で含みは出るが軽い"}
+{"id": 28, "system": "shisa", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「やっぱり」を足した"}
+{"id": 29, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "job を「任せた」と取り違えた"}
+{"id": 30, "system": "shisa", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "席に着ける、と取り違えた"}
+{"id": 31, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "客に席を予約させる文になった"}
+{"id": 32, "system": "shisa", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 2, "nat": 2, "pen": 0, "total": 4, "why": "魚の取り違えと「足りなくてごめんなさい」"}
+{"id": 33, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "訳は通るが、勝手な括弧書きが続く"}
+{"id": 34, "system": "shisa", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "概ね入る"}
+{"id": 35, "system": "shisa", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 5, "nat": 4, "pen": -1, "total": 8, "why": "訳は通るが、別案と注が続く"}
+{"id": 36, "system": "shisa", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 2, "nat": 2, "pen": 0, "total": 4, "why": "「承認しないでいただきます」と意味が違う"}
+{"id": 37, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "governed by が「基にし」に弱まった"}
+{"id": 38, "system": "shisa", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "「30日以内に」と意味が違う"}
+{"id": 39, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 2, "nat": 2, "pen": 0, "total": 4, "why": "条件が崩れて意味が通らない"}
+{"id": 40, "system": "shisa", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "otherwise を「その他」と訳した"}
+{"id": 41, "system": "shisa", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「残っているのね」で文体が変わった"}
+{"id": 42, "system": "shisa", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 2, "nat": 4, "pen": 0, "total": 6, "why": "「音に耳を傾けた」と意味が違う"}
+{"id": 43, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "never learned の意味が崩れた"}
+{"id": 44, "system": "shisa", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 4, "nat": 5, "pen": -1, "total": 8, "why": "訳は通るが、注が続く"}
+{"id": 45, "system": "shisa", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「まだ尋ねていた」が不自然"}
+{"id": 46, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "「見逃す」は不自然"}
+{"id": 47, "system": "shisa", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 2, "nat": 2, "pen": 0, "total": 4, "why": "駅名が違い、slurp の訳が崩れた"}
+{"id": 48, "system": "shisa", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 5, "nat": 5, "pen": -1, "total": 9, "why": "訳は通るが、英語の注が続く"}
+{"id": 49, "system": "shisa", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 50, "system": "shisa", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 2, "nat": 2, "pen": -1, "total": 3, "why": "「調子いいね」と訳し、注が続く"}
+{"id": 51, "system": "shisa", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 52, "system": "shisa", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "訳は通るが、余計な説明が続く"}
+{"id": 53, "system": "shisa", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "主語が you になり、一言が続く"}
+{"id": 54, "system": "shisa", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "「書き換える」を \"is used to rebase\" と取り違えた"}
+{"id": 55, "system": "shisa", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 2, "nat": 3, "pen": -1, "total": 4, "why": "「待たずに」が矛盾し、注が続く"}
+{"id": 56, "system": "shisa", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 5, "nat": 4, "pen": -1, "total": 8, "why": "訳は通るが、別案が続く"}
+{"id": 57, "system": "shisa", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入るが、やや冗長"}
+{"id": 58, "system": "shisa", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 59, "system": "shisa", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語のまま返し、解説が続く"}
+{"id": 60, "system": "shisa", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 3, "nat": 4, "pen": -1, "total": 6, "why": "「元に戻す」が default に変わり、一言が続く"}
+{"id": 61, "system": "shisa", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 3, "nat": 4, "pen": -1, "total": 6, "why": "訳のあとに原文にない内容と質問が続く"}
+{"id": 62, "system": "shisa", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 3, "nat": 2, "pen": -1, "total": 4, "why": "台風の名称が壊れ、時刻も違い、注が続く"}
+{"id": 63, "system": "shisa", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "\"in response to the investigation\" で位置がずれた"}
+{"id": 64, "system": "shisa", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 2, "nat": 3, "pen": -1, "total": 4, "why": "名前が違い、長い作文が続く"}
+{"id": 65, "system": "shisa", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 2, "nat": 2, "pen": -1, "total": 3, "why": "意味が壊れ、解説と声かけが続く"}
+{"id": 66, "system": "shisa", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "訳は通るが、一言が続く"}
+{"id": 67, "system": "shisa", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 68, "system": "shisa", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 69, "system": "shisa", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 70, "system": "shisa", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 71, "system": "shisa", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語を返し、名前も違い、解説が続く"}
+{"id": 72, "system": "shisa", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 2, "nat": 1, "pen": 0, "total": 3, "why": "英語として成り立たない"}
+{"id": 73, "system": "shisa", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 74, "system": "shisa", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "訳は通るが、不要な注が続く"}
+{"id": 75, "system": "shisa", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 3, "nat": 3, "pen": -1, "total": 5, "why": "Furthermore を足し、一言が続く"}
+{"id": 76, "system": "shisa", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "訳は通るが、注と絵文字が続く"}
+{"id": 77, "system": "shisa", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 78, "system": "shisa", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 79, "system": "shisa", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 80, "system": "shisa", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "\"wasn't it?\" を足した"}
+{"id": 81, "system": "shisa", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 82, "system": "shisa", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "お詫びの含みが落ちた"}
+{"id": 83, "system": "shisa", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 1, "nat": 3, "pen": -1, "total": 3, "why": "意味が違い、解説と声かけが続く"}
+{"id": 84, "system": "shisa", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "further と our を足した"}
+{"id": 85, "system": "shisa", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "言い回しが不自然"}
+{"id": 86, "system": "shisa", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 3, "nat": 4, "pen": -1, "total": 6, "why": "\"at the time of its provision\" を足し、一言が続く"}
+{"id": 87, "system": "shisa", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 3, "nat": 4, "pen": -1, "total": 6, "why": "規約を変える、と取り違え、余計な説明が続く"}
+{"id": 88, "system": "shisa", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 2, "nat": 3, "pen": -1, "total": 4, "why": "「前項」が落ち、余計な説明が続く"}
+{"id": 89, "system": "shisa", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 2, "nat": 4, "pen": -1, "total": 5, "why": "令和8年を2023年と取り違え、注が続く"}
+{"id": 90, "system": "shisa", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "訳は通るが、注が続く"}
+{"id": 91, "system": "shisa", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 5, "nat": 5, "pen": -1, "total": 9, "why": "訳は通るが、誤った注が続く"}
+{"id": 92, "system": "shisa", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 93, "system": "shisa", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 5, "nat": 5, "pen": -1, "total": 9, "why": "訳は通るが、誤った注と繰り返しが続く"}
+{"id": 94, "system": "shisa", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "\"felt a nostalgic smell\" が不自然"}
+{"id": 95, "system": "shisa", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 96, "system": "shisa", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 97, "system": "shisa", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "「甘くなくて好き」の関係が崩れた"}
+{"id": 98, "system": "shisa", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 99, "system": "shisa", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "時制が現在になり、解説が続く"}
+{"id": 100, "system": "shisa", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 2, "nat": 2, "pen": 0, "total": 4, "why": "ライブに当たった、を取り違えた"}
+{"id": 1, "system": "shisa_strict", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "意味は全部入る"}
+{"id": 2, "system": "shisa_strict", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "命令口調が荒く、commit を「登録」と訳した"}
+{"id": 3, "system": "shisa_strict", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "先頭行は通るが、後ろに長い解説"}
+{"id": 4, "system": "shisa_strict", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 5, "system": "shisa_strict", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "deprecated を「削除されていた」と取り違えた"}
+{"id": 6, "system": "shisa_strict", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 3, "nat": 2, "pen": -1, "total": 4, "why": "「削除したい」に変わり、括弧の注釈が長い"}
+{"id": 7, "system": "shisa_strict", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 3, "nat": 2, "pen": -1, "total": 4, "why": "指示文が漏れている"}
+{"id": 8, "system": "shisa_strict", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 2, "nat": 2, "pen": -1, "total": 3, "why": "「未招待の招待状」と意味が壊れ、解説が続く"}
+{"id": 9, "system": "shisa_strict", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 10, "system": "shisa_strict", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「アカウントで」が落ち、場所の言い方が変わった"}
+{"id": 11, "system": "shisa_strict", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 2, "nat": 3, "pen": -1, "total": 4, "why": "「木曜日までに4.5％引き上げる」と意味が違い、注が続く"}
+{"id": 12, "system": "shisa_strict", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 3, "nat": 2, "pen": -1, "total": 4, "why": "「重い雨」に誤訳、英語の注釈が続く"}
+{"id": 13, "system": "shisa_strict", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 2, "nat": 3, "pen": -1, "total": 4, "why": "誰が誰に説明したのか意味が変わり、注が続く"}
+{"id": 14, "system": "shisa_strict", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 2, "nat": 2, "pen": -1, "total": 3, "why": "名前が変わり、意味が崩れ、注が続く"}
+{"id": 15, "system": "shisa_strict", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 3, "nat": 3, "pen": -1, "total": 5, "why": "「歩くことがある人ほど」と条件が変わり、注が続く"}
+{"id": 16, "system": "shisa_strict", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "くだけすぎで意味が通りにくい"}
+{"id": 17, "system": "shisa_strict", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "「どんな本よりも」が「本を読むよりも」に弱まった"}
+{"id": 18, "system": "shisa_strict", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 5, "pen": -1, "total": 9, "why": "先頭行は良いが、英語の解説が長く続く"}
+{"id": 19, "system": "shisa_strict", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 2, "nat": 3, "pen": -1, "total": 4, "why": "意味が違い、英語の解説が続く"}
+{"id": 20, "system": "shisa_strict", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 3, "nat": 3, "pen": -1, "total": 5, "why": "指示文が漏れ、注が続く"}
+{"id": 21, "system": "shisa_strict", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "「お手伝い」と意味が違う"}
+{"id": 22, "system": "shisa_strict", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 4, "nat": 3, "pen": -1, "total": 6, "why": "文末が不自然で、解説が続く"}
+{"id": 23, "system": "shisa_strict", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 2, "nat": 3, "pen": -1, "total": 4, "why": "内容が変わり、注が続く"}
+{"id": 24, "system": "shisa_strict", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 3, "nat": 3, "pen": -1, "total": 5, "why": "「お送りいただいた」と向きが逆で、注が続く"}
+{"id": 25, "system": "shisa_strict", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 26, "system": "shisa_strict", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "「何が起きたか」が落ちた"}
+{"id": 27, "system": "shisa_strict", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "訳は通るが、英語の注が続く"}
+{"id": 28, "system": "shisa_strict", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「やっぱり」を足した"}
+{"id": 29, "system": "shisa_strict", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "job を「任せてた」と取り違えた"}
+{"id": 30, "system": "shisa_strict", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "席に着かせる、と取り違えた"}
+{"id": 31, "system": "shisa_strict", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "Welcome を「どういたしまして」と取り違えた"}
+{"id": 32, "system": "shisa_strict", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 2, "nat": 4, "pen": 0, "total": 6, "why": "sea bass をサーモンと訳した"}
+{"id": 33, "system": "shisa_strict", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 5, "nat": 4, "pen": -1, "total": 8, "why": "訳は通るが、注が続く"}
+{"id": 34, "system": "shisa_strict", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "荷物を預かる主体が逆で、余計な一文がある"}
+{"id": 35, "system": "shisa_strict", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 36, "system": "shisa_strict", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 2, "nat": 2, "pen": -1, "total": 3, "why": "Licensee を「ライセンス者」とし、文が崩れ、注が続く"}
+{"id": 37, "system": "shisa_strict", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 3, "nat": 3, "pen": -1, "total": 5, "why": "「基にし」で意味がずれ、注が続く"}
+{"id": 38, "system": "shisa_strict", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 4, "nat": 3, "pen": -1, "total": 6, "why": "「置いて」が不自然で、注が続く"}
+{"id": 39, "system": "shisa_strict", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 2, "nat": 3, "pen": -1, "total": 4, "why": "条件が逆になり、注が続く"}
+{"id": 40, "system": "shisa_strict", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "「そうでない限り」で何のことか不明"}
+{"id": 41, "system": "shisa_strict", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 4, "nat": 3, "pen": -1, "total": 6, "why": "文体が変わり、注が続く"}
+{"id": 42, "system": "shisa_strict", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「傾きそうになった」で意味が弱まった"}
+{"id": 43, "system": "shisa_strict", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "「決して覚えていなかった」でニュアンスがずれた"}
+{"id": 44, "system": "shisa_strict", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "訳は通るが、英語混じりの注が続く"}
+{"id": 45, "system": "shisa_strict", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "「から。」で文が途切れ、意味がずれた"}
+{"id": 46, "system": "shisa_strict", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 2, "nat": 2, "pen": 0, "total": 4, "why": "電車が遅れた話に変わった"}
+{"id": 47, "system": "shisa_strict", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 2, "nat": 2, "pen": -1, "total": 3, "why": "駅名が違い、注が続く"}
+{"id": 48, "system": "shisa_strict", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 2, "nat": 2, "pen": -1, "total": 3, "why": "意味が違い、解説が続く"}
+{"id": 49, "system": "shisa_strict", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 5, "nat": 4, "pen": -1, "total": 8, "why": "訳は通るが、解説が続く"}
+{"id": 50, "system": "shisa_strict", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "rec を「勉強」と訳した"}
+{"id": 51, "system": "shisa_strict", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 52, "system": "shisa_strict", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 3, "nat": 3, "pen": -1, "total": 5, "why": "throw と lock の関係を取り違え、注が続く"}
+{"id": 53, "system": "shisa_strict", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "訳のあとに括弧書きが続く"}
+{"id": 54, "system": "shisa_strict", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "「書き換える」を \"is used to rebase\" と取り違えた"}
+{"id": 55, "system": "shisa_strict", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "訳は通るが、一言が続く"}
+{"id": 56, "system": "shisa_strict", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語を返し、解説が続く"}
+{"id": 57, "system": "shisa_strict", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「確認して」が落ちた"}
+{"id": 58, "system": "shisa_strict", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 5, "nat": 4, "pen": -1, "total": 8, "why": "訳は通るが、一言が続く"}
+{"id": 59, "system": "shisa_strict", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語のまま返し、解説が続く"}
+{"id": 60, "system": "shisa_strict", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語で返し、解説が続く"}
+{"id": 61, "system": "shisa_strict", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 2, "nat": 4, "pen": -1, "total": 5, "why": "原文にない曜日と解説が続く"}
+{"id": 62, "system": "shisa_strict", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 3, "nat": 5, "pen": -1, "total": 7, "why": "「昼ごろ」が「午後から夕方」に変わり、注が続く"}
+{"id": 63, "system": "shisa_strict", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 2, "nat": 3, "pen": -1, "total": 4, "why": "「調べに対し」が落ち、注が続く"}
+{"id": 64, "system": "shisa_strict", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 2, "nat": 3, "pen": -1, "total": 4, "why": "総裁の名前が違い、一言が続く"}
+{"id": 65, "system": "shisa_strict", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語のまま返し、注が続く"}
+{"id": 66, "system": "shisa_strict", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "訳は通るが、一言が続く"}
+{"id": 67, "system": "shisa_strict", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 68, "system": "shisa_strict", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 69, "system": "shisa_strict", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 70, "system": "shisa_strict", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 71, "system": "shisa_strict", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語を返し、名前も違い、解説が長く続く"}
+{"id": 72, "system": "shisa_strict", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語のまま返し、注が続く"}
+{"id": 73, "system": "shisa_strict", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 2, "nat": 3, "pen": -1, "total": 4, "why": "都合の悪さが「気になること」に変わり、一言が続く"}
+{"id": 74, "system": "shisa_strict", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 4, "nat": 3, "pen": -1, "total": 6, "why": "\"quotation slip\" が不自然で、注が続く"}
+{"id": 75, "system": "shisa_strict", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 3, "nat": 3, "pen": -1, "total": 5, "why": "Furthermore を足し、一言が続く"}
+{"id": 76, "system": "shisa_strict", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "\"all day\" を足し、一言が続く"}
+{"id": 77, "system": "shisa_strict", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語を返し、注が続く"}
+{"id": 78, "system": "shisa_strict", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返し、内容も違う"}
+{"id": 79, "system": "shisa_strict", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 4, "nat": 3, "pen": -1, "total": 6, "why": "訳は通るが、括弧書きと絵文字が続く"}
+{"id": 80, "system": "shisa_strict", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語を返し、注が続く"}
+{"id": 81, "system": "shisa_strict", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語のまま返し、注が続く"}
+{"id": 82, "system": "shisa_strict", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語のまま返し、英語の注が続く"}
+{"id": 83, "system": "shisa_strict", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語を返し、解説が続く"}
+{"id": 84, "system": "shisa_strict", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語を返し、解説が続く"}
+{"id": 85, "system": "shisa_strict", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語のまま返し、注が続く"}
+{"id": 86, "system": "shisa_strict", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 4, "nat": 3, "pen": -1, "total": 6, "why": "同じ内容を重ねた冗長な文で、注が続く"}
+{"id": 87, "system": "shisa_strict", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語を返し、注が続く"}
+{"id": 88, "system": "shisa_strict", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 3, "nat": 3, "pen": -1, "total": 5, "why": "「前項の規定」が落ち、一言が続く"}
+{"id": 89, "system": "shisa_strict", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語を返し、年も違い、注が続く"}
+{"id": 90, "system": "shisa_strict", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 3, "nat": 3, "pen": -1, "total": 5, "why": "同じ内容を重ね、解説が長く続く"}
+{"id": 91, "system": "shisa_strict", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "\"began to\" を足し、誤った注が続く"}
+{"id": 92, "system": "shisa_strict", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語を返し、注が続く"}
+{"id": 93, "system": "shisa_strict", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 5, "nat": 4, "pen": -1, "total": 8, "why": "訳は通るが、解説が続く"}
+{"id": 94, "system": "shisa_strict", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語を返し、解説が続く"}
+{"id": 95, "system": "shisa_strict", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語を返し、解説が続く"}
+{"id": 96, "system": "shisa_strict", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語を返し、解説が続く"}
+{"id": 97, "system": "shisa_strict", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 3, "nat": 3, "pen": -1, "total": 5, "why": "「甘くなくて好き」の関係が崩れ、注が続く"}
+{"id": 98, "system": "shisa_strict", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 99, "system": "shisa_strict", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語を返し、解説が続く"}
+{"id": 100, "system": "shisa_strict", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 2, "nat": 3, "pen": -1, "total": 4, "why": "意味が違い、解説が続く"}
+{"id": 1, "system": "cat08", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「then」の順序が薄く、指示でなく宣言調"}
+{"id": 2, "system": "cat08", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 3, "system": "cat08", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "文の呼応がずれている"}
+{"id": 4, "system": "cat08", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "最後の指示が「保ちます」と動作の説明に変わった"}
+{"id": 5, "system": "cat08", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 6, "system": "cat08", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 7, "system": "cat08", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "ボタン文言として適切"}
+{"id": 8, "system": "cat08", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 9, "system": "cat08", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "「最低12文字で」がやや不自然"}
+{"id": 10, "system": "cat08", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る。文が少し切れ気味"}
+{"id": 11, "system": "cat08", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 12, "system": "cat08", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 13, "system": "cat08", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 14, "system": "cat08", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "慣用句は活きたが、語が重なって冗長"}
+{"id": 15, "system": "cat08", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 16, "system": "cat08", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 17, "system": "cat08", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「数本のハーブ」「晴れた窓辺」がやや不自然"}
+{"id": 18, "system": "cat08", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "見出しとして自然"}
+{"id": 19, "system": "cat08", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「戻ることはできなかった」でやや硬い"}
+{"id": 20, "system": "cat08", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 21, "system": "cat08", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 22, "system": "cat08", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る。やや平板"}
+{"id": 23, "system": "cat08", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "URL の中のハイフンが別の文字に変わり、リンクが壊れる"}
+{"id": 24, "system": "cat08", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "概ね入る。「フォローアップのメール」が硬い"}
+{"id": 25, "system": "cat08", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 3, "nat": 5, "pen": 0, "total": 8, "why": "touch base が「会う」に狭まった"}
+{"id": 26, "system": "cat08", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 27, "system": "cat08", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 28, "system": "cat08", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る。くだけ具合がやや弱い"}
+{"id": 29, "system": "cat08", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "No way を「だめだよ」と取り違えた"}
+{"id": 30, "system": "cat08", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "「場所を取っておく」が落ちた"}
+{"id": 31, "system": "cat08", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「二人で座れるテーブル」がやや不自然"}
+{"id": 32, "system": "cat08", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 33, "system": "cat08", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 34, "system": "cat08", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 35, "system": "cat08", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 36, "system": "cat08", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "otherwise が圧縮された"}
+{"id": 37, "system": "cat08", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「支配され」が直訳"}
+{"id": 38, "system": "cat08", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 2, "nat": 4, "pen": 0, "total": 6, "why": "「通知から30日以内」と意味が違う"}
+{"id": 39, "system": "cat08", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "概ね入る。「本会社」が不自然"}
+{"id": 40, "system": "cat08", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 41, "system": "cat08", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 42, "system": "cat08", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 43, "system": "cat08", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 44, "system": "cat08", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「沈んだ」で意味が近い"}
+{"id": 45, "system": "cat08", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 46, "system": "cat08", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 47, "system": "cat08", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "全部入るが、「飲みたく」はずれる"}
+{"id": 48, "system": "cat08", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 49, "system": "cat08", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 50, "system": "cat08", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 2, "nat": 2, "pen": 0, "total": 4, "why": "「本が完成して」と取り違えた"}
+{"id": 51, "system": "cat08", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "「実行」が落ちた"}
+{"id": 52, "system": "cat08", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 53, "system": "cat08", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 54, "system": "cat08", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "\"in the pushed history\" が不自然"}
+{"id": 55, "system": "cat08", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "受け身が重い"}
+{"id": 56, "system": "cat08", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 57, "system": "cat08", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 58, "system": "cat08", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "主語の「お知らせします」が受け身になった"}
+{"id": 59, "system": "cat08", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 60, "system": "cat08", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 61, "system": "cat08", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 62, "system": "cat08", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 63, "system": "cat08", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "\"in the investigation\" でやや不自然"}
+{"id": 64, "system": "cat08", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "総裁が Chairman になった"}
+{"id": 65, "system": "cat08", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 66, "system": "cat08", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "リンクの記法が落ち、step-by-step guide を足した"}
+{"id": 67, "system": "cat08", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "\"choosing either\" が不自然"}
+{"id": 68, "system": "cat08", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 69, "system": "cat08", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 70, "system": "cat08", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "引用の形が落ちた"}
+{"id": 71, "system": "cat08", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "\"consideration\" がずれる"}
+{"id": 72, "system": "cat08", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "\"inconvenience of your busy schedule\" が不自然"}
+{"id": 73, "system": "cat08", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "「次の会議」「間に合わない」とずれた"}
+{"id": 74, "system": "cat08", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "\"includes ... in total, including tax\" が冗長"}
+{"id": 75, "system": "cat08", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "「こちらから」が落ちた"}
+{"id": 76, "system": "cat08", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "概ね入る"}
+{"id": 77, "system": "cat08", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 78, "system": "cat08", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 79, "system": "cat08", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "\"suitable meal\" の取り違え"}
+{"id": 80, "system": "cat08", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 81, "system": "cat08", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "\"there\" が不自然"}
+{"id": 82, "system": "cat08", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "原文をそのまま返した"}
+{"id": 83, "system": "cat08", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 84, "system": "cat08", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 85, "system": "cat08", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "やや冗長"}
+{"id": 86, "system": "cat08", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "概ね入る"}
+{"id": 87, "system": "cat08", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 88, "system": "cat08", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "構文が変わったが意味は通る"}
+{"id": 89, "system": "cat08", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 90, "system": "cat08", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "意味は入るが、語順が硬い"}
+{"id": 91, "system": "cat08", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 92, "system": "cat08", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "\"watched out the window\" がやや不自然"}
+{"id": 93, "system": "cat08", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "\"the cicada\" が単数"}
+{"id": 94, "system": "cat08", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 2, "nat": 2, "pen": 0, "total": 4, "why": "匂いを聞いた、と取り違えた"}
+{"id": 95, "system": "cat08", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "\"a single word\" が少し不自然"}
+{"id": 96, "system": "cat08", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 97, "system": "cat08", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 98, "system": "cat08", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 99, "system": "cat08", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "ハッシュタグが落ちた"}
+{"id": 100, "system": "cat08", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "概ね入る"}
+{"id": 1, "system": "cat14", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「まず…した後」を足し、「使用して」が硬い"}
+{"id": 2, "system": "cat14", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "commit を「保管」と取り違え、「定期的に」を足した"}
+{"id": 3, "system": "cat14", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "「返却される」がやや硬い"}
+{"id": 4, "system": "cat14", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 5, "system": "cat14", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 6, "system": "cat14", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 7, "system": "cat14", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "ボタンに「ください」は不自然"}
+{"id": 8, "system": "cat14", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「未承認」でやや意味がずれる"}
+{"id": 9, "system": "cat14", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "「最低…以上」が重複"}
+{"id": 10, "system": "cat14", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 11, "system": "cat14", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る。文体がやや硬い"}
+{"id": 12, "system": "cat14", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 13, "system": "cat14", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 14, "system": "cat14", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "名前が佳子に変わった"}
+{"id": 15, "system": "cat14", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "news", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 16, "system": "cat14", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 17, "system": "cat14", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 18, "system": "cat14", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "見出しとして自然"}
+{"id": 19, "system": "cat14", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 20, "system": "cat14", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 21, "system": "cat14", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "prompt が薄いが自然"}
+{"id": 22, "system": "cat14", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 23, "system": "cat14", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "全角括弧でリンクの記法が壊れた"}
+{"id": 24, "system": "cat14", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "全体は通るが、後半が不自然"}
+{"id": 25, "system": "cat14", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "biz", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "「打ち合わせ」に寄ったが通る"}
+{"id": 26, "system": "cat14", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 27, "system": "cat14", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 28, "system": "cat14", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "your を「自分の」と取り違えた"}
+{"id": 29, "system": "cat14", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 30, "system": "cat14", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "casual", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "意味は近いが言い回しが硬い"}
+{"id": 31, "system": "cat14", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "Welcome が「ご来訪ありがとう」に寄った"}
+{"id": 32, "system": "cat14", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 33, "system": "cat14", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 34, "system": "cat14", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 35, "system": "cat14", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 36, "system": "cat14", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "Licensee を「ライセンス者」と取り違えた"}
+{"id": 37, "system": "cat14", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る。契約文なら「とする」が欲しい"}
+{"id": 38, "system": "cat14", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 39, "system": "cat14", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 40, "system": "cat14", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 41, "system": "cat14", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "「その出来事の」を足した"}
+{"id": 42, "system": "cat14", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 43, "system": "cat14", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 44, "system": "cat14", "label": "C", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 45, "system": "cat14", "label": "E", "src_lang": "en", "tgt_lang": "ja", "category": "lit", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 46, "system": "cat14", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「長い一日」がずれ、文体も混ざる"}
+{"id": 47, "system": "cat14", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る。口調が丁寧すぎる"}
+{"id": 48, "system": "cat14", "label": "B", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 49, "system": "cat14", "label": "D", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "丁寧すぎる"}
+{"id": 50, "system": "cat14", "label": "A", "src_lang": "en", "tgt_lang": "ja", "category": "sns", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "rec を「レビュー」と訳した"}
+{"id": 51, "system": "cat14", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「実行」が落ちた"}
+{"id": 52, "system": "cat14", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 53, "system": "cat14", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "主語が we になった"}
+{"id": 54, "system": "cat14", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「注意」が日本語のまま残った"}
+{"id": 55, "system": "cat14", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 56, "system": "cat14", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 57, "system": "cat14", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 58, "system": "cat14", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 59, "system": "cat14", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "余計な The がつく"}
+{"id": 60, "system": "cat14", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "ui", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 61, "system": "cat14", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 62, "system": "cat14", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 63, "system": "cat14", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "\"in the inquiry\" がやや不自然"}
+{"id": 64, "system": "cat14", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 65, "system": "cat14", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "news", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「反発」が rose になり弱い"}
+{"id": 66, "system": "cat14", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "リンクの記法が落ちた"}
+{"id": 67, "system": "cat14", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「結論から言うと」が In conclusion になり、順序の含みが変わった"}
+{"id": 68, "system": "cat14", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 69, "system": "cat14", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "\"visit during the morning\" が少し不自然"}
+{"id": 70, "system": "cat14", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 71, "system": "cat14", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「お世話になっております」を \"patronage\" と訳した"}
+{"id": 72, "system": "cat14", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "概ね入る"}
+{"id": 73, "system": "cat14", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「変更させて」の依頼が弱い"}
+{"id": 74, "system": "cat14", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 2, "nat": 1, "pen": 0, "total": 3, "why": "日本語が混ざる"}
+{"id": 75, "system": "cat14", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "biz", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "\"at a later date\" がずれる"}
+{"id": 76, "system": "cat14", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "概ね入る"}
+{"id": 77, "system": "cat14", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 78, "system": "cat14", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "「言ってほしい」が「自分が言いたい」に変わった"}
+{"id": 79, "system": "cat14", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "全部入る"}
+{"id": 80, "system": "cat14", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "casual", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "\"quite a hit\" と \"go there\" でややずれる"}
+{"id": 81, "system": "cat14", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 82, "system": "cat14", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "日本語のまま返した"}
+{"id": 83, "system": "cat14", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "受け身で硬いが通る"}
+{"id": 84, "system": "cat14", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 85, "system": "cat14", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "polite", "acc": 3, "nat": 5, "pen": 0, "total": 8, "why": "「お手数ですが」が落ちた"}
+{"id": 86, "system": "cat14", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 87, "system": "cat14", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 88, "system": "cat14", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 89, "system": "cat14", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 90, "system": "cat14", "label": "B", "src_lang": "ja", "tgt_lang": "en", "category": "legal", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "\"present case\" 等がぎこちない"}
+{"id": 91, "system": "cat14", "label": "D", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "\"a indigo\" の冠詞が誤り"}
+{"id": 92, "system": "cat14", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 93, "system": "cat14", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 94, "system": "cat14", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 95, "system": "cat14", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "lit", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 96, "system": "cat14", "label": "E", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "trains が複数になった"}
+{"id": 97, "system": "cat14", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "概ね入る。語順が少し硬い"}
+{"id": 98, "system": "cat14", "label": "A", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "全部入る"}
+{"id": 99, "system": "cat14", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "ハッシュタグが落ちた"}
+{"id": 100, "system": "cat14", "label": "C", "src_lang": "ja", "tgt_lang": "en", "category": "sns", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "「推しのライブ」を取り違えた"}
