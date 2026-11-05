@@ -1,0 +1,30 @@
+{"id": 1, "src_lang": "en", "tgt_lang": "ja", "category": "tech", "src": "The function returns None if the key is not found in the dictionary, so check for that before indexing."}
+{"id": 2, "src_lang": "en", "tgt_lang": "ja", "category": "tech", "src": "Run the migration before deploying the new version, otherwise the application will fail to start."}
+{"id": 3, "src_lang": "en", "tgt_lang": "ja", "category": "tech", "src": "This library parses the configuration file lazily and caches the result in memory."}
+{"id": 4, "src_lang": "en", "tgt_lang": "ja", "category": "tech", "src": "A race condition occurs when two threads update the same counter without holding a lock."}
+{"id": 5, "src_lang": "en", "tgt_lang": "ja", "category": "tech", "src": "If the build fails with a linker error, delete the build directory and run the configuration step again."}
+{"id": 6, "src_lang": "en", "tgt_lang": "ja", "category": "conv", "src": "Sorry I'm late, the train was delayed again and I couldn't get a seat."}
+{"id": 7, "src_lang": "en", "tgt_lang": "ja", "category": "conv", "src": "Do you want to grab lunch somewhere near the office, or should we just order in?"}
+{"id": 8, "src_lang": "en", "tgt_lang": "ja", "category": "conv", "src": "I haven't decided yet, but I'm leaning toward taking the earlier flight."}
+{"id": 9, "src_lang": "en", "tgt_lang": "ja", "category": "conv", "src": "Could you send me the slides before the meeting? I'd like to read through them first."}
+{"id": 10, "src_lang": "en", "tgt_lang": "ja", "category": "conv", "src": "That was way better than I expected, honestly. We should go there again sometime."}
+{"id": 11, "src_lang": "en", "tgt_lang": "ja", "category": "web", "src": "The city council voted on Tuesday to extend the bike lane network by twelve kilometers over the next three years."}
+{"id": 12, "src_lang": "en", "tgt_lang": "ja", "category": "web", "src": "Researchers say the new battery design could charge in under ten minutes while lasting twice as long as current cells."}
+{"id": 13, "src_lang": "en", "tgt_lang": "ja", "category": "web", "src": "Despite a slow start to the season, the team has won six of its last seven games and now leads the division."}
+{"id": 14, "src_lang": "en", "tgt_lang": "ja", "category": "web", "src": "Critics praised the film's cinematography, though some found the second half uneven and overly long."}
+{"id": 15, "src_lang": "en", "tgt_lang": "ja", "category": "web", "src": "The company announced that it will cut about five percent of its workforce as part of a broader cost-saving plan."}
+{"id": 16, "src_lang": "ja", "tgt_lang": "en", "category": "tech", "src": "辞書にキーが存在しない場合、この関数は None を返すので、添字でアクセスする前に確認してください。"}
+{"id": 17, "src_lang": "ja", "tgt_lang": "en", "category": "tech", "src": "新しいバージョンをデプロイする前にマイグレーションを実行しないと、アプリケーションが起動しません。"}
+{"id": 18, "src_lang": "ja", "tgt_lang": "en", "category": "tech", "src": "このライブラリは設定ファイルを必要になるまで読み込まず、結果をメモリにキャッシュします。"}
+{"id": 19, "src_lang": "ja", "tgt_lang": "en", "category": "tech", "src": "2つのスレッドがロックを取らずに同じカウンタを更新すると、競合状態が発生します。"}
+{"id": 20, "src_lang": "ja", "tgt_lang": "en", "category": "tech", "src": "リンカエラーでビルドに失敗したら、ビルドディレクトリを削除して設定の手順をもう一度実行してください。"}
+{"id": 21, "src_lang": "ja", "tgt_lang": "en", "category": "conv", "src": "遅れてごめん、電車がまた遅延していて、座れもしなかったんだ。"}
+{"id": 22, "src_lang": "ja", "tgt_lang": "en", "category": "conv", "src": "お昼はオフィスの近くで食べる？それとも出前にしようか？"}
+{"id": 23, "src_lang": "ja", "tgt_lang": "en", "category": "conv", "src": "まだ決めてないけど、早いほうの便に乗ろうかなと思ってる。"}
+{"id": 24, "src_lang": "ja", "tgt_lang": "en", "category": "conv", "src": "会議の前にスライドを送ってもらえますか？先に目を通しておきたいので。"}
+{"id": 25, "src_lang": "ja", "tgt_lang": "en", "category": "conv", "src": "正直、思ってたよりずっとよかったよ。また今度行こうよ。"}
+{"id": 26, "src_lang": "ja", "tgt_lang": "en", "category": "web", "src": "市議会は火曜日、今後3年間で自転車専用レーンを12キロメートル延長する案を可決した。"}
+{"id": 27, "src_lang": "ja", "tgt_lang": "en", "category": "web", "src": "研究チームによると、新しい電池は10分以内に充電でき、現行品の2倍長持ちする可能性があるという。"}
+{"id": 28, "src_lang": "ja", "tgt_lang": "en", "category": "web", "src": "シーズン序盤は低調だったが、チームは直近7試合のうち6試合に勝ち、地区首位に立った。"}
+{"id": 29, "src_lang": "ja", "tgt_lang": "en", "category": "web", "src": "批評家は映像美を高く評価した一方、後半は出来にむらがあり冗長だと感じる向きもあった。"}
+{"id": 30, "src_lang": "ja", "tgt_lang": "en", "category": "web", "src": "同社は、より広範なコスト削減計画の一環として、従業員の約5パーセントを削減すると発表した。"}
