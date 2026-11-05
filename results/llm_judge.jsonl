@@ -1,0 +1,90 @@
+{"id": 1, "system": "shisa", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 2, "nat": 4, "pen": 0, "total": 6, "why": "before indexing を after indexing に取り違え、確認の順序が逆になった"}
+{"id": 1, "system": "shisa_strict", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "意味は全部入る。「インデックス化」は少し硬い"}
+{"id": 1, "system": "bergamot", "label": "Z", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「なし」は None の訳として使える。「その機能」が function と機能の区別を曖昧にする"}
+{"id": 2, "system": "shisa", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "意味は全部入る。「開始されません」は「起動しません」の方が自然"}
+{"id": 2, "system": "bergamot", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "意味は全部入る。「展開」は技術文では「デプロイ」が普通"}
+{"id": 2, "system": "shisa_strict", "label": "Z", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "X と同じ訳"}
+{"id": 3, "system": "shisa_strict", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 4, "pen": -1, "total": 8, "why": "訳は正確。末尾に lazy の訳の説明が付き、同じ語を使い分けると書くなど内容も矛盾している"}
+{"id": 3, "system": "bergamot", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 2, "nat": 4, "pen": 0, "total": 6, "why": "lazily を「簡潔に」と訳し、遅延読み込みという中心の性質が消えた"}
+{"id": 3, "system": "shisa", "label": "Z", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "正確。「しています」は原文の現在形とずれるだけ"}
+{"id": 4, "system": "bergamot", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "正確。「レース条件」は一般の訳語（競合状態）より一歩ずれる"}
+{"id": 4, "system": "shisa_strict", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確で、「競合状態（レースコンディション）」が標準的な訳語"}
+{"id": 4, "system": "shisa", "label": "Z", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確で自然。「してしまう」は少し評価が入るが許容"}
+{"id": 5, "system": "shisa_strict", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 3, "nat": 2, "pen": 0, "total": 5, "why": "「リンクャー」は linker の誤字で、エラーの種類が読み取れない"}
+{"id": 5, "system": "shisa", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 3, "nat": 2, "pen": 0, "total": 5, "why": "同じ「リンクャー」の誤字に、「エラーで失敗」の重なりが加わって不自然"}
+{"id": 5, "system": "bergamot", "label": "Z", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確で自然。「リンカーエラー」が標準的"}
+{"id": 6, "system": "bergamot", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "正確。「列車」「座席」は硬いが、謝る場面としては許容"}
+{"id": 6, "system": "shisa", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "正確で口語。「もうまた」は不自然で、「もう」は要らない"}
+{"id": 6, "system": "shisa_strict", "label": "Z", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 5, "nat": 3, "pen": 0, "total": 8, "why": "正確だが「申し訳ありません」「遅延」「することができませんでした」など硬く、くだけた会話の原文に合わない"}
+{"id": 7, "system": "shisa", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 5, "nat": 3, "pen": 0, "total": 8, "why": "正確。「ランチはどこかに行く」は言い回しが不自然"}
+{"id": 7, "system": "shisa_strict", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「somewhere」の「どこか」が抜け、「ところで」を足している。口語としては自然"}
+{"id": 7, "system": "bergamot", "label": "Z", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "正確。「注文すればよい」は出前の含みがやや弱い"}
+{"id": 8, "system": "shisa_strict", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 2, "nat": 4, "pen": 0, "total": 6, "why": "earlier（早い便）を「先ほどの便」と訳し、どの便かを取り違えた"}
+{"id": 8, "system": "shisa", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "正確。「早い時間の便を選ぶ」が原文の意味どおり"}
+{"id": 8, "system": "bergamot", "label": "Z", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "earlier（早い便）を「以前の便」と訳し、取り違えた。文体も硬い"}
+{"id": 9, "system": "bergamot", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "正確で丁寧。「読み通したい」は少し硬い"}
+{"id": 9, "system": "shisa_strict", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確で自然な丁寧語"}
+{"id": 9, "system": "shisa", "label": "Z", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "正確。「〜だよね」は会話として自然だが、依頼の丁寧さは原文よりくだけている"}
+{"id": 10, "system": "shisa_strict", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確で、口語として自然"}
+{"id": 10, "system": "shisa", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確。「行ってみよう」は試す含みが少し入るが、意味の範囲内"}
+{"id": 10, "system": "bergamot", "label": "Z", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「行くべきだ」は should より強い勧めになり、「です」と「だ」が混ざる。空白も残っている"}
+{"id": 11, "system": "shisa_strict", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 5, "pen": -1, "total": 9, "why": "訳は正確で自然。末尾に訳の説明と「自然な表現を心がけました」という自己言及が付いた"}
+{"id": 11, "system": "shisa", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "「火曜日から今後3年間で」は、投票が火曜日に行われたという時点の情報を取り違える"}
+{"id": 11, "system": "bergamot", "label": "Z", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確で、新聞の文体として自然"}
+{"id": 12, "system": "shisa", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "10分以内に「充電できる」と断定し、原文の could（可能性）を落とした"}
+{"id": 12, "system": "bergamot", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "同じく could を落とした。「述べている」で主張の出どころは残る"}
+{"id": 12, "system": "shisa_strict", "label": "Z", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "「可能性がある」で could を保っている。「2倍の寿命で」は少し硬い"}
+{"id": 13, "system": "shisa_strict", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "「スタートが遅い」は直訳。リーグ首位を「独占」は言い過ぎ。末尾に英語の注釈が付いた"}
+{"id": 13, "system": "bergamot", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "division を「部門」にしたのは誤訳寄り（スポーツの地区・部）"}
+{"id": 13, "system": "shisa", "label": "Z", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「序盤は遅れました」は出遅れの意味がやや薄い。division の訳は「リーグ首位」"}
+{"id": 14, "system": "bergamot", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「不均等」は uneven の直訳で、批評の文脈では不自然。撮影は「撮影」で良い"}
+{"id": 14, "system": "shisa", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "uneven（出来にむら）を「不自然」にして、批評の中身が変わる。「者もいた」も硬い"}
+{"id": 14, "system": "shisa_strict", "label": "Z", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 3, "nat": 3, "pen": -1, "total": 5, "why": "Y と同じ訳に、英語の注釈（原文の but some found の説明）が付いた"}
+{"id": 15, "system": "shisa_strict", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "「更なる」は broader（より広範な）の訳として弱い。訳の説明と注釈が付いた"}
+{"id": 15, "system": "shisa", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "X と同じ訳で注釈なし。「更なる」の弱さは同じ"}
+{"id": 15, "system": "bergamot", "label": "Z", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "broader を「より広範な」と訳し、原文に忠実。自然"}
+{"id": 16, "system": "bergamot", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 3, "nat": 2, "pen": 0, "total": 5, "why": "「添字」を appendix（付録）と訳し、文として通じない"}
+{"id": 16, "system": "shisa_strict", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 4, "pen": -1, "total": 8, "why": "「by key」で添字の意味を取り正確。末尾に指示文の残りが漏れた注釈が付いた"}
+{"id": 16, "system": "shisa", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 3, "nat": 4, "pen": -1, "total": 6, "why": "「the identifier」で添字を誤訳し、should は「返す」の断定を弱めた。末尾に注釈"}
+{"id": 17, "system": "shisa_strict", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "意味は通るが、条件の否定を必要条件に言い換えた。冒頭に引用符の誤りが残り、末尾に注釈"}
+{"id": 17, "system": "shisa", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 4, "pen": -1, "total": 7, "why": "X と同じ意味。末尾に別案の注釈が付いた"}
+{"id": 17, "system": "bergamot", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確で自然。条件の否定もそのまま"}
+{"id": 18, "system": "shisa", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "読み込みの遅延は合うが、「キャッシュ」が「結果をメモリに読み込む」になり、キャッシュの意味が消えた"}
+{"id": 18, "system": "bergamot", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確で自然"}
+{"id": 18, "system": "shisa_strict", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": -1, "total": 9, "why": "Y と同じく正確で自然。末尾に指示文の残りが漏れた注釈が付いた"}
+{"id": 19, "system": "bergamot", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「conflict state」は race condition の定訳ではなく、意味は取れるが不自然"}
+{"id": 19, "system": "shisa_strict", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": -1, "total": 9, "why": "正確で標準的な用語。末尾に訳の説明の注釈が付いた"}
+{"id": 19, "system": "shisa", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確で自然。acquiring a lock は lock を取るに一致"}
+{"id": 20, "system": "bergamot", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確で自然"}
+{"id": 20, "system": "shisa_strict", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 3, "nat": 2, "pen": -1, "total": 4, "why": "linker が「Lincheeller」の誤綴り、「run a build error」は誤り。注釈も付いた"}
+{"id": 20, "system": "shisa", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 3, "nat": 2, "pen": -1, "total": 4, "why": "linker が「Linkeder」の誤綴り。「get a build error with Linkeder」は通じない。注釈付き"}
+{"id": 21, "system": "shisa", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 2, "nat": 4, "pen": 0, "total": 6, "why": "「座れもしなかった」を「乗れなかった（get in）」と取り違え、遅れたから乗れなかったという因果になった"}
+{"id": 21, "system": "bergamot", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "座れなかったを正しく取り、遅れたことの謝りは Sorry に残る。主語が一部抜けている程度"}
+{"id": 21, "system": "shisa_strict", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 2, "nat": 4, "pen": -1, "total": 5, "why": "X と同じ誤訳に、注釈が付いた"}
+{"id": 22, "system": "shisa", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 2, "nat": 2, "pen": -1, "total": 3, "why": "一行目は「出前」を bring it out と誤り、その後は訳ではなく質問への回答と助言。訳として使えない"}
+{"id": 22, "system": "shisa_strict", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 2, "nat": 4, "pen": -1, "total": 5, "why": "「出前」を restaurant へ出かける意味に取り違え、選択肢の意味が変わる。英語の注釈付き"}
+{"id": 22, "system": "bergamot", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "出前を「外に出る（go out）」にし、選択肢が変わる。主語も I になり、スペースが抜けている"}
+{"id": 23, "system": "shisa", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "英語にならず日本語で返した（向きの取り違え）"}
+{"id": 23, "system": "shisa_strict", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "英語にならず日本語で返した（向きの取り違え）"}
+{"id": 23, "system": "bergamot", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「the first flight」は早いほうの便として近いが、the earlier flight の方が正確"}
+{"id": 24, "system": "shisa", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "正確。「a slide」は slides の単数化で、小さな違い"}
+{"id": 24, "system": "bergamot", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 2, "nat": 2, "pen": 0, "total": 4, "why": "「目を通しておきたい」を「keep an eye out for you」と取り違え、意味が通らない。文の境界も詰まっている"}
+{"id": 24, "system": "shisa_strict", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "X と同じ訳。正確"}
+{"id": 25, "system": "shisa", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "英語にならず日本語で返した（向きの取り違え）"}
+{"id": 25, "system": "bergamot", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "正確で自然。「thought.Let's」の空白抜けだけが気になる"}
+{"id": 25, "system": "shisa_strict", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "英語にならず日本語で返した（向きの取り違え）"}
+{"id": 26, "system": "shisa", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 5, "pen": -1, "total": 8, "why": "「火曜日」が抜けた。文は自然。末尾に質問返しが付いた"}
+{"id": 26, "system": "bergamot", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "正確。「passed a proposal Tuesday」の語順は少し不自然"}
+{"id": 26, "system": "shisa_strict", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 3, "pen": -1, "total": 7, "why": "正確だが「Tuesday, ... has passed」は過去の時点に現在完了を使う文法誤り。末尾に注釈の漏れ"}
+{"id": 27, "system": "bergamot", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "could be charged の受身化で主語が変わり、hedge の位置も少しずれる"}
+{"id": 27, "system": "shisa_strict", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確で自然"}
+{"id": 27, "system": "shisa", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "Y と同じ訳"}
+{"id": 28, "system": "shisa_strict", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 4, "pen": -1, "total": 8, "why": "正確。「showed a sluggish start」は自然。末尾に注釈の漏れ（No notes）"}
+{"id": 28, "system": "bergamot", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「district」は地区の意味が違う（sports の division）"}
+{"id": 28, "system": "shisa", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確で自然。division を正しく扱う"}
+{"id": 29, "system": "shisa_strict", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 1, "nat": 1, "pen": -1, "total": 1, "why": "日本語で返した（向きの取り違え）。英語の注釈も付いた"}
+{"id": 29, "system": "shisa", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 3, "nat": 5, "pen": 0, "total": 8, "why": "「出来にむら」の一点（uneven）が抜けた。rambling と verbose は冗長として通じる"}
+{"id": 29, "system": "bergamot", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確で自然。uneven も冗長も含む"}
+{"id": 30, "system": "bergamot", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確で自然"}
+{"id": 30, "system": "shisa", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 4, "pen": -1, "total": 8, "why": "正確。「approximately five percent of its employees」はやや硬い。注釈付き"}
+{"id": 30, "system": "shisa_strict", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 4, "pen": -1, "total": 8, "why": "Y と同じ訳。注釈（No notes）の漏れ"}
