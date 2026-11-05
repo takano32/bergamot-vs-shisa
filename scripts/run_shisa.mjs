@@ -1,6 +1,7 @@
 // pyodide-llm の公開サイトをヘッドレス Chrome で開き、Shisa V2.1c LFM2 350M に data/sentences.jsonl を1文ずつ訳させる。
 //   node scripts/run_shisa.mjs [url] [出力 jsonl] [件数の上限]
 // 環境変数 SHISA_SITE で既定のサイト、SHISA_CHROME で Chrome の実行ファイルを変えられる。
+// PYODIDE_MODEL でモデルの id を変えられる（既定は Shisa 350M。CAT-Translate は hf-cat-translate-0.8b / 1.4b）。
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -10,11 +11,14 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const site = process.argv[2] || process.env.SHISA_SITE || "https://takano32.github.io/pyodide-llm/";
 const outFile = process.argv[3] ?? path.join(root, "results/shisa.jsonl");
 const limit = Number(process.argv[4] ?? 1e9);
-const MODEL = "hf-shisa-v2.1c-lfm2-350m";
+const MODEL = process.env.PYODIDE_MODEL || "hf-shisa-v2.1c-lfm2-350m";
 const NAMES = { ja: "Japanese", en: "English" };
 const rows = fs.readFileSync(path.join(root, "data/sentences.jsonl"), "utf8").trim().split("\n").map((l) => JSON.parse(l)).slice(0, limit);
-// 指示文は2種類。SHISA_PROMPT=strict で厳しい版（ノートや説明を付けない、原文の言語に戻さない）。
-const prompt = process.env.SHISA_PROMPT === "strict"
+// 指示文は3種類。SHISA_PROMPT=strict で厳しい版（ノートや説明を付けない、原文の言語に戻さない）。
+// SHISA_PROMPT=card はモデルカード（cyberagent/CAT-Translate-0.8b）の指示文そのまま。
+const prompt = process.env.SHISA_PROMPT === "card"
+  ? (r) => `Translate the following ${NAMES[r.src_lang]} text into ${NAMES[r.tgt_lang]}.\n\n${r.src}`
+  : process.env.SHISA_PROMPT === "strict"
   ? (r) => `Translate the following ${NAMES[r.src_lang]} sentence into ${NAMES[r.tgt_lang]}. The output must be written in ${NAMES[r.tgt_lang]}, not in ${NAMES[r.src_lang]}. Reply with the translation only: no notes, no explanations, no alternatives.\n\n${r.src}`
   : (r) => `Translate the following ${NAMES[r.src_lang]} text into ${NAMES[r.tgt_lang]}. Output only the translation.\n\n${r.src}`;
 

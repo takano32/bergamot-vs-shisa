@@ -11,7 +11,9 @@
 
 使い方:
   .venv/bin/python scripts/comet_score.py --check   # 読み込みと、良い訳と悪い訳の2文の動作確認
-  .venv/bin/python scripts/comet_score.py          # results/comet.jsonl を作る
+  .venv/bin/python scripts/comet_score.py          # results/comet.jsonl を作る（全部の系）
+  .venv/bin/python scripts/comet_score.py --systems cat08 cat14
+                                                    # 指定した系だけ採点し直し、ほかの系の既存の行は残す
 """
 import argparse
 import functools
@@ -43,7 +45,7 @@ if not hasattr(functools, "_HashedSeq"):
 from comet import download_model, load_from_checkpoint  # noqa: E402
 
 MODEL = "Unbabel/wmt20-comet-qe-da"
-SYSTEMS = ["bergamot", "shisa", "shisa_strict"]
+SYSTEMS = ["bergamot", "shisa", "shisa_strict", "cat08", "cat14"]
 
 
 def first_line(text):
@@ -67,7 +69,9 @@ def main():
     ap.add_argument("--batch-size", type=int, default=8)
     ap.add_argument("--out", default=str(REPO / "results" / "comet.jsonl"))
     ap.add_argument("--check", action="store_true", help="読み込みと2文の動作確認だけ")
+    ap.add_argument("--systems", nargs="+", choices=SYSTEMS, help="採点する系（既定は全部）。ほかの系の既存の行は --out に残す")
     args = ap.parse_args()
+    targets = args.systems or SYSTEMS
 
     t0 = time.time()
     ckpt = download_model(MODEL)
@@ -87,11 +91,11 @@ def main():
     sents = [json.loads(line) for line in open(REPO / "data" / "sentences.jsonl", encoding="utf-8")]
     hyps = {
         name: {r["id"]: r for r in map(json.loads, open(REPO / "results" / f"{name}.jsonl", encoding="utf-8"))}
-        for name in SYSTEMS
+        for name in targets
     }
 
     raw_pairs, fl_pairs, keys = [], [], []
-    for name in SYSTEMS:
+    for name in targets:
         for s in sents:
             h = hyps[name][s["id"]]["hyp"]
             raw_pairs.append((s["src"], h))
@@ -103,19 +107,32 @@ def main():
     print(f"scored {len(raw)} pairs ({time.time() - t0:.0f}s)", file=sys.stderr)
 
     meta = {s["id"]: s for s in sents}
+    new_rows = {}
+    for (i, name), r, x in zip(keys, raw, fl):
+        m = meta[i]
+        new_rows[(i, name)] = {
+            "id": i,
+            "system": name,
+            "src_lang": m["src_lang"],
+            "tgt_lang": m["tgt_lang"],
+            "category": m["category"],
+            "comet_qe": round(float(r), 6),
+            "comet_qe_first_line": round(float(x), 6),
+        }
+    # 採点しなかった系の行は既存の --out から読んで残す（--systems のとき）。
+    kept = {}
+    if args.systems and Path(args.out).exists():
+        for line in open(args.out, encoding="utf-8"):
+            row = json.loads(line)
+            if row["system"] not in targets:
+                kept[(row["id"], row["system"])] = row
     with open(args.out, "w", encoding="utf-8") as f:
-        for (i, name), r, x in zip(keys, raw, fl):
-            m = meta[i]
-            row = {
-                "id": i,
-                "system": name,
-                "src_lang": m["src_lang"],
-                "tgt_lang": m["tgt_lang"],
-                "category": m["category"],
-                "comet_qe": round(float(r), 6),
-                "comet_qe_first_line": round(float(x), 6),
-            }
-            f.write(json.dumps(row, ensure_ascii=False) + "\n")
+        for name in SYSTEMS:  # 系の順番は SYSTEMS の順、文の順番は sentences.jsonl の順
+            for s in sents:
+                key = (s["id"], name)
+                row = new_rows.get(key) or kept.get(key)
+                if row is not None:
+                    f.write(json.dumps(row, ensure_ascii=False) + "\n")
     print(f"wrote {args.out}", file=sys.stderr)
 
 

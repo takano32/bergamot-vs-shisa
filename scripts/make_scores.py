@@ -2,25 +2,37 @@
 """results/comet.jsonl（COMET-QE）と results/llm_judge.jsonl（LLM 判定）から results/scores.md を作る。
 
 - 全体、方向別、種類別、方向×種類の平均（COMET と LLM 総合）
-- 文ごとの表（3系の点と、各指標の最良）
+- 文ごとの表（5系の点と、各指標の最良）
 - 食い違い: 同じ文の2系の組で、LLM 総合の差が2点以上あるのに COMET の差の向きが逆のもの
 - 注釈を切った点（comet_qe_first_line）と原文のままの点（comet_qe）の差
 - 系どうしの差の目安（文ごとの対応のある差の平均と、その2倍の標準誤差で作った約95%の幅）
+
+LLM 判定は2回に分かれている（bergamot・shisa・shisa_strict は1回目、cat08・cat14 は2回目で、判定役のセッションが別）。
+1回目の判定は3系を同時に見て付けたもので、2回目は2系を同時に見て付けた。判定役が違うので、回をまたぐ差は割り引いて読む。
 """
+import itertools
 import json
 import math
 import statistics
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-SYSTEMS = ["bergamot", "shisa", "shisa_strict"]
+SYSTEMS = ["bergamot", "shisa", "shisa_strict", "cat08", "cat14"]
 LABEL = {
     "bergamot": "Firefox翻訳",
     "shisa": "Shisa350M",
     "shisa_strict": "Shisa350M厳",
+    "cat08": "CAT-Translate 0.8B",
+    "cat14": "CAT-Translate 1.4B",
 }
-PAIRS = [("bergamot", "shisa"), ("bergamot", "shisa_strict"), ("shisa", "shisa_strict")]
+PAIRS = list(itertools.combinations(SYSTEMS, 2))  # 全部の組（10組）
+PASS = {"bergamot": 1, "shisa": 1, "shisa_strict": 1, "cat08": 2, "cat14": 2}  # LLM 判定の回（1 回目は3系、2 回目は2系）
 DISAGREE_LLM_GAP = 2  # LLM 総合の差がこの点以上なら「明確に差がある」とみなす（判定前に決めた）
+
+
+def cross_pass(a, b):
+    """判定の回が違う組。LLM 総合の差に判定役の違いが混ざる。"""
+    return PASS[a] != PASS[b]
 
 
 def load_jsonl(path):
@@ -57,6 +69,7 @@ def main():
     w("# 採点の結果（COMET-QE と LLM 判定）")
     w("")
     w("COMET-QE は `results/comet.jsonl`、LLM 判定は `results/llm_judge.jsonl`。判定の基準は README の「採点の基準」。")
+    w("LLM 判定は2回に分かれている。1回目は bergamot・shisa・shisa_strict を同時に見て付けた。2回目は cat08・cat14 を同時に見て付けた（判定役のセッションが別、既存の判定はやり直していない）。回をまたぐ LLM の差は、判定役の違いを含む。")
     w("")
 
     # 1. 全体
@@ -111,6 +124,7 @@ def main():
     w("## COMET と LLM 判定の食い違い")
     w("")
     w(f"判定の定義: 同じ文の2系で、LLM 総合の差が {DISAGREE_LLM_GAP} 点以上あるのに、COMET の差の向きが逆のもの（COMET 同点は除く）。")
+    w("「※判定の回が違う」は、一方が1回目（bergamot・shisa・shisa_strict）、他方が2回目（cat08・cat14）の組。LLM 総合の差に判定役の違いが混ざるので、その組の LLM 側は割り引いて読む。")
     w("")
     flagged, reversed_any = [], 0
     for i in ids:
@@ -121,13 +135,14 @@ def main():
                 reversed_any += 1
                 if abs(dl) >= DISAGREE_LLM_GAP:
                     flagged.append((i, a, b, dl, dc))
-    w(f"- 向きが逆になった組は全部で {reversed_any} 組（90 組のうち）。そのうち LLM の差が {DISAGREE_LLM_GAP} 点以上のものが下の {len(flagged)} 組。")
+    w(f"- 向きが逆になった組は全部で {reversed_any} 組（{len(PAIRS) * len(ids)} 組のうち）。そのうち LLM の差が {DISAGREE_LLM_GAP} 点以上のものが下の {len(flagged)} 組。")
     w("")
     if flagged:
         w("| id | 向き | 種類 | 組 | LLM 総合の差（左−右） | COMET の差（左−右） |")
         w("|---|---|---|---|---|---|")
         for i, a, b, dl, dc in flagged:
-            w(f"| {i} | {dirname(i)} | {cat(i)} | {LABEL[a]} と {LABEL[b]} | {dl:+d} | {dc:+.3f} |")
+            mark = " ※判定の回が違う" if cross_pass(a, b) else ""
+            w(f"| {i} | {dirname(i)} | {cat(i)} | {LABEL[a]} と {LABEL[b]}{mark} | {dl:+d} | {dc:+.3f} |")
     else:
         w("該当なし。")
     w("")
@@ -162,7 +177,8 @@ def main():
             m = mean(ds)
             se = statistics.stdev(ds) / math.sqrt(len(ds))
             nd = 3 if key == "comet_qe" else 2
-            w(f"| {LABEL[a]} − {LABEL[b]} | {name} | {fmt(m, nd)} | {fmt(m - 2 * se, nd)} 〜 {fmt(m + 2 * se, nd)} |")
+            mark = " ※判定の回が違う" if (key == "total" and cross_pass(a, b)) else ""
+            w(f"| {LABEL[a]} − {LABEL[b]} | {name}{mark} | {fmt(m, nd)} | {fmt(m - 2 * se, nd)} 〜 {fmt(m + 2 * se, nd)} |")
     w("")
 
     out_path = REPO / "results/scores.md"

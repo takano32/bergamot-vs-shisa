@@ -88,3 +88,63 @@
 {"id": 30, "system": "bergamot", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "正確で自然"}
 {"id": 30, "system": "shisa", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 4, "pen": -1, "total": 8, "why": "正確。「approximately five percent of its employees」はやや硬い。注釈付き"}
 {"id": 30, "system": "shisa_strict", "label": "Z", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 4, "pen": -1, "total": 8, "why": "Y と同じ訳。注釈（No notes）の漏れ"}
+{"id": 1, "system": "cat08", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "意味は全部入る。「見つからない」「そのケース」の言い方も読みやすい", "pass": 2}
+{"id": 1, "system": "cat14", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "意味は全部入る。「None」を訳さず残したのは技術文として妥当だが、「ので」と「ます」の組み合わせがやや硬い", "pass": 2}
+{"id": 2, "system": "cat08", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "マイグレーションの語も、「実行しないと」も自然", "pass": 2}
+{"id": 2, "system": "cat14", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「移行」は data migration の訳としては曖昧。「行ってください」も少し回りくどい", "pass": 2}
+{"id": 3, "system": "cat08", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "「遅延解析」は技術文の言い方として自然", "pass": 2}
+{"id": 3, "system": "cat14", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "意味は全部入る。「遅延的に解析」は硬い", "pass": 2}
+{"id": 4, "system": "cat08", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "語順を入れ替えても意味は同じで、自然", "pass": 2}
+{"id": 4, "system": "cat14", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える", "pass": 2}
+{"id": 5, "system": "cat08", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "「ビルドがリンカエラーで失敗」「構成ステップ」の訳語とも自然", "pass": 2}
+{"id": 5, "system": "cat14", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "tech", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "意味は全部入る。「ビルドでリンクエラーが発生」がややぎこちない（「ビルドが失敗」の方が自然）", "pass": 2}
+{"id": 6, "system": "cat08", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "くだけた会話の調子が合っている。「また遅れ」も自然", "pass": 2}
+{"id": 6, "system": "cat14", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「申し訳ございません」は友人の会話には硬い。「I'm late」の「遅れた」が落ちている", "pass": 2}
+{"id": 7, "system": "cat08", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "「order in」の出前の意味が「注文」になり少し薄まる。ほかは自然", "pass": 2}
+{"id": 7, "system": "cat14", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "「美味しい」は原文にない足し。lunch が「お弁当」になって昼食全般より狭まる", "pass": 2}
+{"id": 8, "system": "cat08", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "earlier flight を「早めに飛ぶほう」と動作に言い換えた。意味は残る", "pass": 2}
+{"id": 8, "system": "cat14", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 2, "nat": 3, "pen": 0, "total": 5, "why": "earlier flight を「前回のフライト」と取り違えた（早い便が前回の便になった）。「まずは」も不自然", "pass": 2}
+{"id": 9, "system": "cat08", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "意味は全部入る。「？」の後に空白が入るのが不自然", "pass": 2}
+{"id": 9, "system": "cat14", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える", "pass": 2}
+{"id": 10, "system": "cat08", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "意味は全部入る。「行くべきだ」は少し説教くさく、会話の調子には「行こうよ」が近い", "pass": 2}
+{"id": 10, "system": "cat14", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "conv", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "should が「行きたい」になって勧めの調子が弱まる。「そちら」「でした」が会話の調子に合わない", "pass": 2}
+{"id": 11, "system": "cat08", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "意味は合う。「延長する投票を行いました」は議会の言い方として硬い（「延長を議決」が自然）", "pass": 2}
+{"id": 11, "system": "cat14", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "意味は全部入る。「自転車レーンネットワーク」の外来語の続きが硬い", "pass": 2}
+{"id": 12, "system": "cat08", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "could の仮定が落ち、under ten minutes を「10分以内」にした（未満との差は小さい）。報道文として自然", "pass": 2}
+{"id": 12, "system": "cat14", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "could の仮定が落ち、lasting を「耐久性」に言い換えた。文が長く、読点が続く", "pass": 2}
+{"id": 13, "system": "cat08", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 3, "nat": 4, "pen": 0, "total": 7, "why": "slow start を「スタートは遅れ」と時期の遅れに読んだ。「ディビジョン」は地区の語が自然", "pass": 2}
+{"id": 13, "system": "cat14", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「スタートは遅かった」は不振とも時期の遅れとも読め、やや曖昧。「地区首位」は自然", "pass": 2}
+{"id": 14, "system": "cat08", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "英単語 cinematography が残っている。「批判した」は found の強さを超えている", "pass": 2}
+{"id": 14, "system": "cat14", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "英単語 cinematography が訳されず残っている。「後半の展開が」は second half をやや広げた", "pass": 2}
+{"id": 15, "system": "cat08", "label": "Y", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える", "pass": 2}
+{"id": 15, "system": "cat14", "label": "X", "src_lang": "en", "tgt_lang": "ja", "category": "web", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "意味は全部入る。「発表いたしました」は堅く、ニュースの文体には硬め", "pass": 2}
+{"id": 16, "system": "cat08", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "意味は全部入る。「via indices」は indexes の方が一般的", "pass": 2}
+{"id": 16, "system": "cat14", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える", "pass": 2}
+{"id": 17, "system": "cat08", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える", "pass": 2}
+{"id": 17, "system": "cat14", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "意味は全部入る。「execute」は run より硬い", "pass": 2}
+{"id": 18, "system": "cat08", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える", "pass": 2}
+{"id": 18, "system": "cat14", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "actually は原文にない足し。読み心地は自然", "pass": 2}
+{"id": 19, "system": "cat08", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "conflict state も race condition の標準語ではないが、意味は残る", "pass": 2}
+{"id": 19, "system": "cat14", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 3, "nat": 3, "pen": 0, "total": 6, "why": "「競合状態」を competitive state と直訳した。race condition の語にならない", "pass": 2}
+{"id": 20, "system": "cat08", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える", "pass": 2}
+{"id": 20, "system": "cat14", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "tech", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "意味は全部入る。「If the build failed」の過去形は仮定の書き方として硬い", "pass": 2}
+{"id": 21, "system": "cat08", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 2, "nat": 4, "pen": 0, "total": 6, "why": "「遅れてごめん」を「返信が遅れて」と取り違えた（late reply）。遅刻の謝罪が返信の遅れに変わる", "pass": 2}
+{"id": 21, "system": "cat14", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 5, "nat": 4, "pen": 0, "total": 9, "why": "意味は全部入る。「wasn't able to」は couldn't の方が会話的", "pass": 2}
+{"id": 22, "system": "cat08", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える（order it in が出前にあたる）", "pass": 2}
+{"id": 22, "system": "cat14", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 4, "nat": 3, "pen": 0, "total": 7, "why": "「出前」を「店から注文」と訳し、order in の意味が薄まる。「at the office nearby」も不自然", "pass": 2}
+{"id": 23, "system": "cat08", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える", "pass": 2}
+{"id": 23, "system": "cat14", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える", "pass": 2}
+{"id": 24, "system": "cat08", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える", "pass": 2}
+{"id": 24, "system": "cat14", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える（I would like to は少し丁寧だが会話でも読める）", "pass": 2}
+{"id": 25, "system": "cat08", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える", "pass": 2}
+{"id": 25, "system": "cat14", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "conv", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える", "pass": 2}
+{"id": 26, "system": "cat08", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "「専用」が落ちた（bicycle lane で大体通じる）。ほかは正確で、報道文として自然", "pass": 2}
+{"id": 26, "system": "cat14", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 1, "nat": 1, "pen": 0, "total": 2, "why": "向きの取り違え。英語の The の後に、日本語の文がほぼそのまま残っている", "pass": 2}
+{"id": 27, "system": "cat08", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える", "pass": 2}
+{"id": 27, "system": "cat14", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 5, "pen": 0, "total": 9, "why": "「10分以内」を less than ten minutes（未満）にした。ほかは自然", "pass": 2}
+{"id": 28, "system": "cat08", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "「低調」を was weak で正しく訳した（やや直訳）", "pass": 2}
+{"id": 28, "system": "cat14", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「低調」を modest（控えめ）にしたので、不振の意味が弱まる", "pass": 2}
+{"id": 29, "system": "cat08", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える", "pass": 2}
+{"id": 29, "system": "cat14", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える", "pass": 2}
+{"id": 30, "system": "cat08", "label": "Y", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 5, "nat": 5, "pen": 0, "total": 10, "why": "そのまま使える（roughly が「約」にあたる）", "pass": 2}
+{"id": 30, "system": "cat14", "label": "X", "src_lang": "ja", "tgt_lang": "en", "category": "web", "acc": 4, "nat": 4, "pen": 0, "total": 8, "why": "「削減」を eliminate（取り除く）にしたので、人員削減より強い言い方になる", "pass": 2}
