@@ -1,30 +1,100 @@
-{"id": 1, "src_lang": "en", "tgt_lang": "ja", "category": "tech", "src": "The function returns None if the key is not found in the dictionary, so check for that before indexing."}
-{"id": 2, "src_lang": "en", "tgt_lang": "ja", "category": "tech", "src": "Run the migration before deploying the new version, otherwise the application will fail to start."}
-{"id": 3, "src_lang": "en", "tgt_lang": "ja", "category": "tech", "src": "This library parses the configuration file lazily and caches the result in memory."}
-{"id": 4, "src_lang": "en", "tgt_lang": "ja", "category": "tech", "src": "A race condition occurs when two threads update the same counter without holding a lock."}
-{"id": 5, "src_lang": "en", "tgt_lang": "ja", "category": "tech", "src": "If the build fails with a linker error, delete the build directory and run the configuration step again."}
-{"id": 6, "src_lang": "en", "tgt_lang": "ja", "category": "conv", "src": "Sorry I'm late, the train was delayed again and I couldn't get a seat."}
-{"id": 7, "src_lang": "en", "tgt_lang": "ja", "category": "conv", "src": "Do you want to grab lunch somewhere near the office, or should we just order in?"}
-{"id": 8, "src_lang": "en", "tgt_lang": "ja", "category": "conv", "src": "I haven't decided yet, but I'm leaning toward taking the earlier flight."}
-{"id": 9, "src_lang": "en", "tgt_lang": "ja", "category": "conv", "src": "Could you send me the slides before the meeting? I'd like to read through them first."}
-{"id": 10, "src_lang": "en", "tgt_lang": "ja", "category": "conv", "src": "That was way better than I expected, honestly. We should go there again sometime."}
-{"id": 11, "src_lang": "en", "tgt_lang": "ja", "category": "web", "src": "The city council voted on Tuesday to extend the bike lane network by twelve kilometers over the next three years."}
-{"id": 12, "src_lang": "en", "tgt_lang": "ja", "category": "web", "src": "Researchers say the new battery design could charge in under ten minutes while lasting twice as long as current cells."}
-{"id": 13, "src_lang": "en", "tgt_lang": "ja", "category": "web", "src": "Despite a slow start to the season, the team has won six of its last seven games and now leads the division."}
-{"id": 14, "src_lang": "en", "tgt_lang": "ja", "category": "web", "src": "Critics praised the film's cinematography, though some found the second half uneven and overly long."}
-{"id": 15, "src_lang": "en", "tgt_lang": "ja", "category": "web", "src": "The company announced that it will cut about five percent of its workforce as part of a broader cost-saving plan."}
-{"id": 16, "src_lang": "ja", "tgt_lang": "en", "category": "tech", "src": "辞書にキーが存在しない場合、この関数は None を返すので、添字でアクセスする前に確認してください。"}
-{"id": 17, "src_lang": "ja", "tgt_lang": "en", "category": "tech", "src": "新しいバージョンをデプロイする前にマイグレーションを実行しないと、アプリケーションが起動しません。"}
-{"id": 18, "src_lang": "ja", "tgt_lang": "en", "category": "tech", "src": "このライブラリは設定ファイルを必要になるまで読み込まず、結果をメモリにキャッシュします。"}
-{"id": 19, "src_lang": "ja", "tgt_lang": "en", "category": "tech", "src": "2つのスレッドがロックを取らずに同じカウンタを更新すると、競合状態が発生します。"}
-{"id": 20, "src_lang": "ja", "tgt_lang": "en", "category": "tech", "src": "リンカエラーでビルドに失敗したら、ビルドディレクトリを削除して設定の手順をもう一度実行してください。"}
-{"id": 21, "src_lang": "ja", "tgt_lang": "en", "category": "conv", "src": "遅れてごめん、電車がまた遅延していて、座れもしなかったんだ。"}
-{"id": 22, "src_lang": "ja", "tgt_lang": "en", "category": "conv", "src": "お昼はオフィスの近くで食べる？それとも出前にしようか？"}
-{"id": 23, "src_lang": "ja", "tgt_lang": "en", "category": "conv", "src": "まだ決めてないけど、早いほうの便に乗ろうかなと思ってる。"}
-{"id": 24, "src_lang": "ja", "tgt_lang": "en", "category": "conv", "src": "会議の前にスライドを送ってもらえますか？先に目を通しておきたいので。"}
-{"id": 25, "src_lang": "ja", "tgt_lang": "en", "category": "conv", "src": "正直、思ってたよりずっとよかったよ。また今度行こうよ。"}
-{"id": 26, "src_lang": "ja", "tgt_lang": "en", "category": "web", "src": "市議会は火曜日、今後3年間で自転車専用レーンを12キロメートル延長する案を可決した。"}
-{"id": 27, "src_lang": "ja", "tgt_lang": "en", "category": "web", "src": "研究チームによると、新しい電池は10分以内に充電でき、現行品の2倍長持ちする可能性があるという。"}
-{"id": 28, "src_lang": "ja", "tgt_lang": "en", "category": "web", "src": "シーズン序盤は低調だったが、チームは直近7試合のうち6試合に勝ち、地区首位に立った。"}
-{"id": 29, "src_lang": "ja", "tgt_lang": "en", "category": "web", "src": "批評家は映像美を高く評価した一方、後半は出来にむらがあり冗長だと感じる向きもあった。"}
-{"id": 30, "src_lang": "ja", "tgt_lang": "en", "category": "web", "src": "同社は、より広範なコスト削減計画の一環として、従業員の約5パーセントを削減すると発表した。"}
+{"id": 1, "src_lang": "en", "tgt_lang": "ja", "category": "tech", "tags": ["num", "code"], "src": "Set the timeout to 30 seconds, then restart the worker with `systemctl restart worker` and check the log."}
+{"id": 2, "src_lang": "en", "tgt_lang": "ja", "category": "tech", "tags": ["neg", "poly"], "src": "Never commit API keys to the repository; rotate any key that has already been pushed."}
+{"id": 3, "src_lang": "en", "tgt_lang": "ja", "category": "tech", "tags": ["q", "code"], "src": "Why does the cache return stale entries after the process calls `fork()`?"}
+{"id": 4, "src_lang": "en", "tgt_lang": "ja", "category": "tech", "tags": ["neg", "poly", "long"], "src": "Because the scheduler runs each task in its own thread, a slow task delays only itself, but a task that holds the global lock for several seconds will stall every other worker until the lock is released, so keep critical sections short."}
+{"id": 5, "src_lang": "en", "tgt_lang": "ja", "category": "tech", "tags": ["num", "frag", "code"], "src": "Deprecated in v2.4; use `Client.connect()` instead."}
+{"id": 6, "src_lang": "en", "tgt_lang": "ja", "category": "ui", "tags": ["q", "neg"], "src": "Are you sure you want to delete this folder? This action cannot be undone."}
+{"id": 7, "src_lang": "en", "tgt_lang": "ja", "category": "ui", "tags": ["poly", "frag"], "src": "Save changes"}
+{"id": 8, "src_lang": "en", "tgt_lang": "ja", "category": "ui", "tags": ["num"], "src": "You have 3 unread messages and 1 pending invitation."}
+{"id": 9, "src_lang": "en", "tgt_lang": "ja", "category": "ui", "tags": ["num", "neg"], "src": "Your password must be at least 12 characters and include a number."}
+{"id": 10, "src_lang": "en", "tgt_lang": "ja", "category": "ui", "tags": ["md"], "src": "Sign in with your account to sync bookmarks across devices. You can turn this off anytime in **Settings > Privacy**."}
+{"id": 11, "src_lang": "en", "tgt_lang": "ja", "category": "news", "tags": ["num"], "src": "The central bank raised its benchmark rate by 0.25 percentage points to 4.5 percent on Thursday, the third increase this year."}
+{"id": 12, "src_lang": "en", "tgt_lang": "ja", "category": "news", "tags": ["num", "prop"], "src": "Heavy rain forced the cancellation of more than 200 flights at Frankfurt airport on Monday morning."}
+{"id": 13, "src_lang": "en", "tgt_lang": "ja", "category": "news", "tags": ["neg", "poly"], "src": "Officials said they would not release the report until the investigation had concluded."}
+{"id": 14, "src_lang": "en", "tgt_lang": "ja", "category": "news", "tags": ["prop", "idm"], "src": "Osaka Mayor Hanako Yamamoto announced the plan at a press conference, saying the city would turn over a new leaf on public transport."}
+{"id": 15, "src_lang": "en", "tgt_lang": "ja", "category": "news", "tags": ["neg", "num", "long"], "src": "A new study suggests that people who walk for at least 30 minutes a day are less likely to develop heart disease, though the researchers caution that the data cannot prove a causal link and that other lifestyle factors may explain part of the difference."}
+{"id": 16, "src_lang": "en", "tgt_lang": "ja", "category": "web", "tags": ["num", "idm"], "src": "I've been using this keyboard for three months now, and honestly, the only thing I'd change is the price."}
+{"id": 17, "src_lang": "en", "tgt_lang": "ja", "category": "web", "tags": ["idm"], "src": "If you're new to gardening, start small: a few pots of herbs on a sunny windowsill will teach you more than any book."}
+{"id": 18, "src_lang": "en", "tgt_lang": "ja", "category": "web", "tags": ["num", "md"], "src": "## Top 5 mistakes beginners make when learning to code"}
+{"id": 19, "src_lang": "en", "tgt_lang": "ja", "category": "web", "tags": ["idm", "neg"], "src": "It took me a while to warm up to the idea, but once I did, I couldn't go back."}
+{"id": 20, "src_lang": "en", "tgt_lang": "ja", "category": "web", "tags": ["idm", "neg", "md"], "src": "**Spoiler alert:** the ending isn't what you'd expect."}
+{"id": 21, "src_lang": "en", "tgt_lang": "ja", "category": "biz", "tags": ["hon"], "src": "Thank you for your prompt reply. I would appreciate it if you could send the revised quotation by Friday."}
+{"id": 22, "src_lang": "en", "tgt_lang": "ja", "category": "biz", "tags": ["neg", "num", "hon"], "src": "Unfortunately, we will be unable to attend the meeting on March 14, as our team will be traveling that week."}
+{"id": 23, "src_lang": "en", "tgt_lang": "ja", "category": "biz", "tags": ["num", "hon", "md"], "src": "Please find the attached invoice ([No. 2026-0417](https://example.com/inv/2026-0417)) for last month's consulting services."}
+{"id": 24, "src_lang": "en", "tgt_lang": "ja", "category": "biz", "tags": ["q", "hon", "long"], "src": "I'm writing to follow up on my earlier message regarding the delivery schedule, which I have not yet received a response to; could you let me know when we might expect an update?"}
+{"id": 25, "src_lang": "en", "tgt_lang": "ja", "category": "biz", "tags": ["idm", "frag"], "src": "Let's touch base next week."}
+{"id": 26, "src_lang": "en", "tgt_lang": "ja", "category": "casual", "tags": ["idm", "neg"], "src": "Dude, you're not gonna believe what just happened."}
+{"id": 27, "src_lang": "en", "tgt_lang": "ja", "category": "casual", "tags": ["q", "prop"], "src": "Wanna grab a coffee at Starbucks or something?"}
+{"id": 28, "src_lang": "en", "tgt_lang": "ja", "category": "casual", "tags": ["idm"], "src": "I totally forgot it was your birthday, my bad!"}
+{"id": 29, "src_lang": "en", "tgt_lang": "ja", "category": "casual", "tags": ["q", "idm", "frag"], "src": "No way! You got the job?"}
+{"id": 30, "src_lang": "en", "tgt_lang": "ja", "category": "casual", "tags": ["q", "idm"], "src": "Can you hold my place in line for a sec? I need to run to the bathroom before it gets any worse."}
+{"id": 31, "src_lang": "en", "tgt_lang": "ja", "category": "polite", "tags": ["q", "num"], "src": "Welcome! Do you have a reservation, or would you like a table for two?"}
+{"id": 32, "src_lang": "en", "tgt_lang": "ja", "category": "polite", "tags": ["q", "hon"], "src": "I'm sorry, we're out of the salmon today. May I recommend the sea bass instead?"}
+{"id": 33, "src_lang": "en", "tgt_lang": "ja", "category": "polite", "tags": ["q", "hon"], "src": "Could I have your name and phone number, please?"}
+{"id": 34, "src_lang": "en", "tgt_lang": "ja", "category": "polite", "tags": ["num"], "src": "The check-out time is 11 a.m., but we can hold your luggage until you're ready to leave."}
+{"id": 35, "src_lang": "en", "tgt_lang": "ja", "category": "polite", "tags": ["q", "poly", "frag"], "src": "Excuse me, is this seat taken?"}
+{"id": 36, "src_lang": "en", "tgt_lang": "ja", "category": "legal", "tags": ["neg"], "src": "The Licensee shall not sublicense, sell, or otherwise transfer the Software to any third party without the prior written consent of the Licensor."}
+{"id": 37, "src_lang": "en", "tgt_lang": "ja", "category": "legal", "tags": ["prop"], "src": "This Agreement shall be governed by and construed in accordance with the laws of Japan."}
+{"id": 38, "src_lang": "en", "tgt_lang": "ja", "category": "legal", "tags": ["num"], "src": "Either party may terminate this Agreement upon thirty (30) days' written notice."}
+{"id": 39, "src_lang": "en", "tgt_lang": "ja", "category": "legal", "tags": ["neg", "long"], "src": "In no event shall the Company be liable for any indirect, incidental, or consequential damages arising out of the use of the Service, even if advised of the possibility of such damages."}
+{"id": 40, "src_lang": "en", "tgt_lang": "ja", "category": "legal", "tags": ["neg", "num"], "src": "Unless otherwise stated, all prices include consumption tax."}
+{"id": 41, "src_lang": "en", "tgt_lang": "ja", "category": "lit", "tags": ["idm"], "src": "The rain had stopped, but the street still held the dark memory of it."}
+{"id": 42, "src_lang": "en", "tgt_lang": "ja", "category": "lit", "tags": ["idm"], "src": "She laughed, and for a moment the whole kitchen seemed to lean toward the sound."}
+{"id": 43, "src_lang": "en", "tgt_lang": "ja", "category": "lit", "tags": ["neg"], "src": "He had never learned how to say goodbye; he only knew how to leave."}
+{"id": 44, "src_lang": "en", "tgt_lang": "ja", "category": "lit", "tags": [], "src": "Silence settled over the harbor like snow."}
+{"id": 45, "src_lang": "en", "tgt_lang": "ja", "category": "lit", "tags": ["q"], "src": "\"Are you coming?\" she asked, though she already knew the answer."}
+{"id": 46, "src_lang": "en", "tgt_lang": "ja", "category": "sns", "tags": ["idm"], "src": "just missed the last train lol, tonight's gonna be a long one"}
+{"id": 47, "src_lang": "en", "tgt_lang": "ja", "category": "sns", "tags": ["num", "prop", "idm"], "src": "this ramen place near Shin-Okubo station is sooo good!! 10/10 would slurp again"}
+{"id": 48, "src_lang": "en", "tgt_lang": "ja", "category": "sns", "tags": ["frag", "code"], "src": "RT if you're still awake #insomnia"}
+{"id": 49, "src_lang": "en", "tgt_lang": "ja", "category": "sns", "tags": ["frag"], "src": "can't believe it's already november"}
+{"id": 50, "src_lang": "en", "tgt_lang": "ja", "category": "sns", "tags": ["code"], "src": "@mika thx for the rec, just finished the book and wow"}
+{"id": 51, "src_lang": "ja", "tgt_lang": "en", "category": "tech", "tags": ["pro", "hon"], "src": "ファイルが見つからない場合は、パスを確認してからもう一度実行してください。"}
+{"id": 52, "src_lang": "ja", "tgt_lang": "en", "category": "tech", "tags": ["pro", "poly", "long", "code"], "src": "`mutex.lock()` を握ったまま例外を投げると、他のスレッドが永久に待たされる。"}
+{"id": 53, "src_lang": "ja", "tgt_lang": "en", "category": "tech", "tags": ["pro", "num"], "src": "メモリ使用量が 2.5 GB を超えたらアラートを出す設定にしてある。"}
+{"id": 54, "src_lang": "ja", "tgt_lang": "en", "category": "tech", "tags": ["neg", "num", "long", "code", "md"], "src": "**注意:** `git rebase -i HEAD~3` は直近3つのコミットを書き換えるので、push 済みの履歴には使わないこと。"}
+{"id": 55, "src_lang": "ja", "tgt_lang": "en", "category": "tech", "tags": ["pro", "long"], "src": "非同期処理の戻り値を待たずに次の行へ進むと、まだ入っていない値を読んでしまうことがあり、原因の特定に時間がかかるため、まずログの出力順を確かめるとよい。"}
+{"id": 56, "src_lang": "ja", "tgt_lang": "en", "category": "ui", "tags": ["frag"], "src": "保存せずに閉じる"}
+{"id": 57, "src_lang": "ja", "tgt_lang": "en", "category": "ui", "tags": ["neg", "hon", "long", "md"], "src": "**接続エラー:** ネットワークに接続できません。接続を確認してもう一度お試しください。"}
+{"id": 58, "src_lang": "ja", "tgt_lang": "en", "category": "ui", "tags": ["hon", "pro"], "src": "通知を許可すると、新着メッセージをすぐにお知らせします。"}
+{"id": 59, "src_lang": "ja", "tgt_lang": "en", "category": "ui", "tags": ["num", "code"], "src": "{count} 件の項目が選択されています"}
+{"id": 60, "src_lang": "ja", "tgt_lang": "en", "category": "ui", "tags": ["q", "hon", "frag"], "src": "設定を元に戻しますか？"}
+{"id": 61, "src_lang": "ja", "tgt_lang": "en", "category": "news", "tags": ["num"], "src": "政府は来月1日から、電気料金の補助を3か月間延長すると発表した。"}
+{"id": 62, "src_lang": "ja", "tgt_lang": "en", "category": "news", "tags": ["prop", "num"], "src": "気象庁によると、台風14号は明日の昼ごろ関東地方に最も接近する見込み。"}
+{"id": 63, "src_lang": "ja", "tgt_lang": "en", "category": "news", "tags": ["pro", "neg"], "src": "容疑者は調べに対し、「覚えていない」と話しているという。"}
+{"id": 64, "src_lang": "ja", "tgt_lang": "en", "category": "news", "tags": ["prop"], "src": "日銀の植田総裁は、物価の動向を注視しながら、金融政策を慎重に判断していく考えを示した。"}
+{"id": 65, "src_lang": "ja", "tgt_lang": "en", "category": "news", "tags": ["prop", "frag"], "src": "東京株式市場で日経平均は反発。"}
+{"id": 66, "src_lang": "ja", "tgt_lang": "en", "category": "web", "tags": ["hon", "pro", "long", "md"], "src": "この記事では、初心者でも迷わず設定できるように、手順を[画像つきの一覧](https://example.com/guide)で説明します。"}
+{"id": 67, "src_lang": "ja", "tgt_lang": "en", "category": "web", "tags": ["idm", "neg"], "src": "結論から言うと、どちらを選んでも大きな差はありません。"}
+{"id": 68, "src_lang": "ja", "tgt_lang": "en", "category": "web", "tags": ["pro", "num"], "src": "実際に1週間使ってみたところ、バッテリーの持ちが思ったより良くて驚いた。"}
+{"id": 69, "src_lang": "ja", "tgt_lang": "en", "category": "web", "tags": ["prop", "hon", "pro"], "src": "京都の夏は蒸し暑いので、観光するなら朝のうちに回るのがおすすめです。"}
+{"id": 70, "src_lang": "ja", "tgt_lang": "en", "category": "web", "tags": ["idm", "pro", "neg"], "src": "「走れば何とかなる」と思っていたが、現実はそう甘くなかった。"}
+{"id": 71, "src_lang": "ja", "tgt_lang": "en", "category": "biz", "tags": ["hon", "prop", "pro"], "src": "お世話になっております。株式会社ミナトの高橋です。"}
+{"id": 72, "src_lang": "ja", "tgt_lang": "en", "category": "biz", "tags": ["hon", "pro"], "src": "ご多忙のところ恐縮ですが、ご確認いただけますと幸いです。"}
+{"id": 73, "src_lang": "ja", "tgt_lang": "en", "category": "biz", "tags": ["hon", "pro", "q", "long"], "src": "来週の打ち合わせの件ですが、都合が悪くなりましたので、日程を変更させていただけないでしょうか。"}
+{"id": 74, "src_lang": "ja", "tgt_lang": "en", "category": "biz", "tags": ["num"], "src": "添付の見積書は、消費税を含めて合計 1,320,000 円です。"}
+{"id": 75, "src_lang": "ja", "tgt_lang": "en", "category": "biz", "tags": ["hon", "pro", "poly"], "src": "のちほど、こちらからお電話をおかけ直しいたします。"}
+{"id": 76, "src_lang": "ja", "tgt_lang": "en", "category": "casual", "tags": ["idm", "q", "pro"], "src": "え、マジで？ 昨日あんなに飲んでたのに、もう朝から走ってきたの？"}
+{"id": 77, "src_lang": "ja", "tgt_lang": "en", "category": "casual", "tags": ["pro", "q", "frag"], "src": "ちょっと待って、鍵どこ置いたっけ。"}
+{"id": 78, "src_lang": "ja", "tgt_lang": "en", "category": "casual", "tags": ["neg", "pro"], "src": "別に怒ってないけど、ひと言くらい言ってほしかったな。"}
+{"id": 79, "src_lang": "ja", "tgt_lang": "en", "category": "casual", "tags": ["pro", "idm"], "src": "今日はなんか疲れちゃったから、ご飯は適当でいいや。"}
+{"id": 80, "src_lang": "ja", "tgt_lang": "en", "category": "casual", "tags": ["idm", "pro", "poly"], "src": "あの店、結構当たりだったよ。今度一緒に行こう。"}
+{"id": 81, "src_lang": "ja", "tgt_lang": "en", "category": "polite", "tags": ["hon", "q", "pro"], "src": "いらっしゃいませ。何名様でいらっしゃいますか。"}
+{"id": 82, "src_lang": "ja", "tgt_lang": "en", "category": "polite", "tags": ["hon", "pro", "idm"], "src": "恐れ入りますが、こちらの商品は在庫を切らしております。"}
+{"id": 83, "src_lang": "ja", "tgt_lang": "en", "category": "polite", "tags": ["hon", "q", "pro", "frag"], "src": "お会計は別々になさいますか。"}
+{"id": 84, "src_lang": "ja", "tgt_lang": "en", "category": "polite", "tags": ["hon", "pro"], "src": "ご不明な点がございましたら、お気軽に係の者にお申し付けください。"}
+{"id": 85, "src_lang": "ja", "tgt_lang": "en", "category": "polite", "tags": ["hon", "pro"], "src": "お手数ですが、こちらのフォームにご記入をお願いいたします。"}
+{"id": 86, "src_lang": "ja", "tgt_lang": "en", "category": "legal", "tags": ["poly"], "src": "利用者は、本規約に同意した時点で、本サービスの利用を開始したものとみなします。"}
+{"id": 87, "src_lang": "ja", "tgt_lang": "en", "category": "legal", "tags": ["neg", "pro"], "src": "当社は、事前の通知なく本サービスの内容を変更または終了することがあります。"}
+{"id": 88, "src_lang": "ja", "tgt_lang": "en", "category": "legal", "tags": ["poly", "long"], "src": "前項の規定にかかわらず、未成年者が本サービスを利用する場合は、親権者の同意を得なければならない。"}
+{"id": 89, "src_lang": "ja", "tgt_lang": "en", "category": "legal", "tags": ["num"], "src": "本契約の有効期間は、令和8年4月1日から1年間とする。"}
+{"id": 90, "src_lang": "ja", "tgt_lang": "en", "category": "legal", "tags": ["prop"], "src": "本件に関する一切の紛争は、東京地方裁判所を第一審の専属的合意管轄裁判所とする。"}
+{"id": 91, "src_lang": "ja", "tgt_lang": "en", "category": "lit", "tags": [], "src": "夕暮れの空が、ゆっくりと藍色に溶けていった。"}
+{"id": 92, "src_lang": "ja", "tgt_lang": "en", "category": "lit", "tags": ["pro", "neg", "frag"], "src": "彼女は何も言わず、ただ窓の外を見ていた。"}
+{"id": 93, "src_lang": "ja", "tgt_lang": "en", "category": "lit", "tags": ["poly", "frag"], "src": "蝉の声が、遠い夏の記憶を連れてきた。"}
+{"id": 94, "src_lang": "ja", "tgt_lang": "en", "category": "lit", "tags": ["pro"], "src": "ふいに、懐かしい匂いがして、足が止まった。"}
+{"id": 95, "src_lang": "ja", "tgt_lang": "en", "category": "lit", "tags": ["neg", "pro", "idm"], "src": "「ありがとう」の一言が、どうしても出てこなかった。"}
+{"id": 96, "src_lang": "ja", "tgt_lang": "en", "category": "sns", "tags": ["idm", "pro", "frag"], "src": "今日の電車、人多すぎて死ぬかと思った…"}
+{"id": 97, "src_lang": "ja", "tgt_lang": "en", "category": "sns", "tags": ["pro", "neg"], "src": "新作のコーヒー飲んでみた☕ 思ったより甘くなくて好き！"}
+{"id": 98, "src_lang": "ja", "tgt_lang": "en", "category": "sns", "tags": ["num", "pro", "frag"], "src": "締め切りまであと3時間。無理。"}
+{"id": 99, "src_lang": "ja", "tgt_lang": "en", "category": "sns", "tags": ["frag", "code"], "src": "#今日の空 めっちゃ綺麗だった"}
+{"id": 100, "src_lang": "ja", "tgt_lang": "en", "category": "sns", "tags": ["idm", "pro", "num"], "src": "推しのライブ当たった！！！人生で一番運を使った気がする"}
