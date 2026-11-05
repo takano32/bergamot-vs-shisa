@@ -27,9 +27,13 @@ python3 scripts/compare.py               # results/compare.md
 
 - 訳したエンジンは `fxtranslate`（Rust 製の実装）で、Firefox が使うのと同じモデルを読ませている。Firefox に載っている Bergamot の C++ 実装そのものではない。PyPI の `bergamot` は Python 3.10 までの wheel しかなかったので使っていない。
 - `fxtranslate` 自身のモデル取得はこの箱の TLS で失敗した（証明書の署名エラー）。そこでモデルは `scripts/fetch_models.py` で Mozilla の Remote Settings から自前で取り、ハッシュを確かめて置いている。
-- Shisa 側の指示文は英語の1種類だけ（`scripts/run_shisa.mjs` の `prompt`）。Shisa は指示文に敏感で、出力の揺れの一部は指示文のせいかもしれない。
+- Shisa 側の指示文は2種類（`scripts/run_shisa.mjs` の `prompt`。`SHISA_PROMPT=strict` で厳しい版）。厳しい版は `results/shisa_strict.jsonl`。
+
+## 気づいたこと（機械で数えたもの。訳の良し悪しの採点ではない）
+
+30文のうち、訳のあとに注釈や余計な文が付いた出力は Firefox 翻訳モデルが0、Shisa 350M が6（指示文が基本のとき）、16（厳しい指示文のとき）。訳す向きを取り違えた（日→英の指示で日本語を返した等）出力は、前から順に0、2、3。厳しい指示文で「注釈をつけるな」と書いたのに、その文言を注釈の中で繰り返す出力が出ており、350M にとって指示文を厳しくしても直らなかった。実装に使うなら、出力を最初の1行で切る、向きを後で検査する、などの後処理が要る。
 
 ## 現状と未了
 
-- 済み: 両方向のモデルがある（en-ja、ja-en）ことの確認、30文の両側の出力。
+- 済み: 両方向のモデルがある（en-ja、ja-en）ことの確認、30文の両側の出力（Shisa は指示文2種類）、ヘッドレス Chrome で CPU の WASM 実行（約2〜4秒/文）。
 - 未了: 自動採点（LLM 判定や COMET）はしていない。指示文を変えた Shisa の再試行、文数を増やすこと、WebGPU のある環境での速度は試していない。
